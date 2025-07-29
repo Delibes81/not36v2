@@ -40,7 +40,7 @@ const Team: React.FC = () => {
           variants={container}
           initial="hidden"
           animate={inView ? 'show' : 'hidden'}
-          className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto"
+          className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 max-w-7xl mx-auto"
         >
           <motion.div
             variants={item}
@@ -78,7 +78,7 @@ const Team: React.FC = () => {
           
           <motion.div
             variants={item}
-            className="rounded-lg border border-neutral-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md h-full flex flex-col sm:col-span-2 lg:col-span-1"
+            className="rounded-lg border border-neutral-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md h-full flex flex-col"
           >
             <div className="mb-4 inline-flex rounded-full bg-green-100 p-3 text-green-700">
               <ShieldCheck className="h-6 w-6" />
@@ -89,6 +89,23 @@ const Team: React.FC = () => {
             <div className="flex-grow">
               <p className="text-neutral-600">
                 En la notaría 36 usted tiene la certeza que TODOS los instrumentos que ante el Notario se otorgan son revisados por él, lo que le garantiza la seguridad jurídica que la función notarial demanda.
+              </p>
+            </div>
+          </motion.div>
+          
+          <motion.div
+            variants={item}
+            className="rounded-lg border border-neutral-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md h-full flex flex-col"
+          >
+            <div className="mb-4 inline-flex rounded-full bg-blue-100 p-3 text-blue-700">
+              <Users className="h-6 w-6" />
+            </div>
+            <h3 className="mb-3 font-heading text-xl font-semibold text-primary-900">
+              Nuestro Compromiso
+            </h3>
+            <div className="flex-grow">
+              <p className="text-neutral-600">
+                En la Notaría 36 nuestro compromiso es atender con prontitud y rectitud a todos nuestros clientes, con calidad y certeza en sus requerimientos de servicios notariales, brindándoles así una atención personalizada junto con el apoyo del mejor equipo profesional de Abogados.
               </p>
             </div>
           </motion.div>
