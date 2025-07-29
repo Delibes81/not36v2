@@ -44,6 +44,9 @@ const Services: React.FC = () => {
           className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
         >
           {services.map((service) => {
+          className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2"
+        >
+          {services.map((service) => {
             // Dynamically get the icon component
             const IconComponent = LucideIcons[service.icon as keyof typeof LucideIcons];
             
