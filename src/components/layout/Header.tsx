@@ -11,6 +11,8 @@ const Header: React.FC = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
+  // Check if we're on a page with white background (not home page)
+  const isOnWhiteBackgroundPage = location.pathname !== '/';
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -52,16 +54,16 @@ const Header: React.FC = () => {
   return (
     <header 
       className={`fixed left-0 right-0 top-0 z-50 transition-all duration-300 ${
-        isScrolled || mobileMenuOpen ? 'bg-white shadow-md py-2' : 'bg-transparent py-6'
+        isScrolled || mobileMenuOpen || isOnWhiteBackgroundPage ? 'bg-white shadow-md py-2' : 'bg-transparent py-6'
       }`}
     >
       <Container>
         <div className="flex items-center justify-between">
           <div className="flex items-center cursor-pointer" onClick={() => navigate('/')}>
-            <Scale className={`h-8 w-8 ${isScrolled || mobileMenuOpen ? 'text-primary-700' : 'text-white'}`} />
+            <Scale className={`h-8 w-8 ${isScrolled || mobileMenuOpen || isOnWhiteBackgroundPage ? 'text-primary-700' : 'text-white'}`} />
             <div className="ml-3 flex flex-col">
-              <span className={`text-lg font-heading font-bold ${isScrolled || mobileMenuOpen ? 'text-primary-900' : 'text-white'}`}>Notaría 36</span>
-              <span className={`text-sm ${isScrolled || mobileMenuOpen ? 'text-gold-700' : 'text-gold-500'}`}>CDMX</span>
+              <span className={`text-lg font-heading font-bold ${isScrolled || mobileMenuOpen || isOnWhiteBackgroundPage ? 'text-primary-900' : 'text-white'}`}>Notaría 36</span>
+              <span className={`text-sm ${isScrolled || mobileMenuOpen || isOnWhiteBackgroundPage ? 'text-gold-700' : 'text-gold-500'}`}>CDMX</span>
             </div>
           </div>
 
@@ -73,7 +75,7 @@ const Header: React.FC = () => {
                   <button
                     onClick={() => handleNavClick(item.href)}
                     className={`text-sm font-medium transition-colors hover:text-primary-700 ${
-                      isScrolled || mobileMenuOpen ? 'text-primary-900' : 'text-white'
+                      isScrolled || mobileMenuOpen || isOnWhiteBackgroundPage ? 'text-primary-900' : 'text-white'
                     }`}
                   >
                     {item.label}
@@ -87,7 +89,7 @@ const Header: React.FC = () => {
             <button
               onClick={toggleLanguage}
               className={`flex items-center rounded-full px-3 py-1.5 text-sm font-medium transition-colors ${
-                isScrolled || mobileMenuOpen
+                isScrolled || mobileMenuOpen || isOnWhiteBackgroundPage
                   ? 'bg-primary-50 text-primary-900 hover:bg-primary-100'
                   : 'bg-white/10 text-white hover:bg-white/20'
               }`}
@@ -104,9 +106,9 @@ const Header: React.FC = () => {
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? (
-              <X className={`h-6 w-6 ${isScrolled || mobileMenuOpen ? 'text-primary-900' : 'text-white'}`} />
+              <X className={`h-6 w-6 ${isScrolled || mobileMenuOpen || isOnWhiteBackgroundPage ? 'text-primary-900' : 'text-white'}`} />
             ) : (
-              <Menu className={`h-6 w-6 ${isScrolled || mobileMenuOpen ? 'text-primary-900' : 'text-white'}`} />
+              <Menu className={`h-6 w-6 ${isScrolled || mobileMenuOpen || isOnWhiteBackgroundPage ? 'text-primary-900' : 'text-white'}`} />
             )}
           </button>
         </div>
