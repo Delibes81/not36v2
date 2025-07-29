@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
               </div>
             </div>
             <p className="mt-4 text-neutral-300">
-             
+              Ofrecemos servicios notariales de la más alta calidad, brindando certeza jurídica y atención personalizada en cada trámite.
             </p>
             <div className="mt-6 flex space-x-4">
               <a href="#" className="text-neutral-300 hover:text-gold-500 transition-colors">
