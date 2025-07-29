@@ -146,7 +146,7 @@ const Contact: React.FC = () => {
                   <textarea
                     id="message"
                     rows={4}
-                    className="mt-1 block w-full rounded-md border border-neutral-300 px-3 py-2 shadow-sm focus:border-primary-500 focus:outline-none focus:ring-1 focus:ring-1 focus:ring-primary-500"
+                    className="mt-1 block w-full rounded-md border border-neutral-300 px-3 py-2 shadow-sm focus:border-primary-500 focus:outline-none focus:ring-1 focus:ring-primary-500"
                     placeholder="Escriba su mensaje aquí..."
                   ></textarea>
                 </div>
@@ -256,10 +256,3 @@ const Contact: React.FC = () => {
 };
 
 export default Contact;
-                loading="lazy"
-                title="Notaría 36 - Blvd. Miguel de Cervantes Saavedra 466, Irrigación"
-              ></iframe>
-            </div>
-          </div>
-  )
-}
