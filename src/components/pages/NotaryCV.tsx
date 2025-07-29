@@ -51,7 +51,7 @@ const NotaryCV: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-neutral-700"><span className="font-medium">Fecha de titulación:</span> 25 de octubre de 1985</p>
-                  <p className="text-neutral-700 mt-2"><span className="font-medium">Domicilio particular:</span> Santander No. 46, Colonia Insurgentes, 11580</p>
+                  <p className="text-neutral-700 mt-2"><span className="font-medium">Domicilio:</span> Blvd. Miguel de Cervantes Saavedra No. 466, Colonia Irrigacion, 11500</p>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-gold-50 rounded-lg border-l-4 border-gold-500">
