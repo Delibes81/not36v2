@@ -32,8 +32,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="mt-6 text-lg leading-relaxed text-white/90 md:text-xl">
-            Brindamos certeza jurídica y asesoría personalizada en todos sus trámites legales. 
-            Más de 25 años de experiencia respaldando sus operaciones con el más alto estándar profesional.
+Nuestro compromiso es atender con prontitud y rectitud a todos nuestros clientes, con calidad y certeza en sus requerimientos de servicios notariales, brindándoles así una atención personalizada con el apoyo del mejor equipo profesional de abogados.
           </p>
           
           <div className="mt-10">
