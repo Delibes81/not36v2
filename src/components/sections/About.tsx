@@ -19,7 +19,7 @@ const About: React.FC = () => {
           <div>
             <SectionTitle 
               title="Sobre Nuestra Notaría"
-              subtitle="25 años brindando certeza jurídica"
+              subtitle="32 años brindando certeza jurídica"
             />
             
             <motion.div
