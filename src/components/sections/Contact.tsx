@@ -41,9 +41,9 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="font-medium text-primary-900">Dirección</h4>
                   <p className="mt-1 text-neutral-600">
-                    Av. Presidente Masaryk 123<br />
-                    Polanco, Miguel Hidalgo<br />
-                    Ciudad de México, 11560
+                    Blvd. Miguel de Cervantes Saavedra No. 466<br />
+                    Colonia: Irrigación<br />
+                    C.P. 11500 Ciudad de México
                   </p>
                 </div>
               </div>
@@ -54,7 +54,8 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-medium text-primary-900">Teléfono</h4>
-                  <p className="mt-1 text-neutral-600">+52 (55) 5123-4567</p>
+                  <p className="mt-1 text-neutral-600">(01 55) 5557 0107</p>
+                  <p className="mt-1 text-sm text-neutral-500">Conmutador a 5 líneas</p>
                 </div>
               </div>
               
