@@ -21,10 +21,10 @@ const NotaryCV: React.FC = () => {
               </div>
             </div>
             <h1 className="font-heading text-4xl font-bold text-primary-900 mb-4">
-              Jorge Fernando Carrera Pinto
+              Jorge Fernando Caraza Pinto
             </h1>
             <p className="text-xl text-gold-700 font-medium">
-              Notario Público Titular de la Notaría 36
+              Titular de la Notaría 36
             </p>
             <p className="text-lg text-neutral-600 mt-2">
               Ciudad de México
