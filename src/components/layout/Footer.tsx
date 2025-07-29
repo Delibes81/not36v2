@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
               </div>
             </div>
             <p className="mt-4 text-neutral-300">
-              Contamos con un equipo de trabajo con gran capacidad de respuesta, con posibilidad de solución expedita de los asuntos, consciente de que el tiempo y la eficiencia son factores primordiales para cualquier persona, física o moral, que le puede asesorar en materia civil, mercantil, familiar y fiscal. El Notariado es una institución de servicio para el beneficio de nuestro país.
+             
             </p>
             <div className="mt-6 flex space-x-4">
               <a href="#" className="text-neutral-300 hover:text-gold-500 transition-colors">
