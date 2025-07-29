@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import Container from '../ui/Container';
 import SectionTitle from '../ui/SectionTitle';
-import { Target, Eye, ShieldCheck } from 'lucide-react';
+import { Target, Eye, ShieldCheck, Users } from 'lucide-react';
 
 const Team: React.FC = () => {
   const [ref, inView] = useInView({
