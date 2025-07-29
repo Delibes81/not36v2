@@ -11,5 +11,4 @@ export const navItems: MenuItem[] = [
 
 export const footerLinks: MenuItem[] = [
   { label: 'Aviso de Privacidad', href: '/privacidad' },
-  { label: 'Términos y Condiciones', href: '/terminos' },
 ];
