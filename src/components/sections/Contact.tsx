@@ -254,3 +254,5 @@ const Contact: React.FC = () => {
               ></iframe>
             </div>
           </div>
+  )
+}
