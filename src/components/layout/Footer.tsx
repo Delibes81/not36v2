@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               {footerLinks.map((link) => (
                 <li key={link.href}>
-                  <a 
+                  <a
                     href={link.href} 
                     className="text-neutral-300 hover:text-gold-500 transition-colors"
                   >
