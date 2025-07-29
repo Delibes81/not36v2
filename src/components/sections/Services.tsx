@@ -51,7 +51,7 @@ const Services: React.FC = () => {
               <motion.div
                 key={service.id}
                 variants={item}
-                className="rounded-lg border border-neutral-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md"
+                className="rounded-lg border border-neutral-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md h-full flex flex-col"
               >
                 <div className="mb-4 inline-flex rounded-full bg-primary-100 p-3 text-primary-700">
                   {IconComponent && <IconComponent className="h-6 w-6" />}
@@ -59,9 +59,22 @@ const Services: React.FC = () => {
                 <h3 className="mb-3 font-heading text-xl font-semibold text-primary-900">
                   {service.title}
                 </h3>
-                <p className="text-neutral-600">
-                  {service.description}
-                </p>
+                <div className="flex-grow">
+                  {service.items && service.items.length > 0 ? (
+                    <ul className="space-y-2 text-sm text-neutral-600">
+                      {service.items.map((item, index) => (
+                        <li key={index} className="flex items-start">
+                          <span className="mr-2 mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-gold-500"></span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="text-neutral-600">
+                      {service.description}
+                    </p>
+                  )}
+                </div>
               </motion.div>
             );
           })}
