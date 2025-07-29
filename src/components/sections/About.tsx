@@ -29,9 +29,7 @@ const About: React.FC = () => {
               ref={ref}
             >
               <p className="text-lg text-neutral-700">
-                En Notaría Polanco nos dedicamos a brindar servicios notariales de la más alta calidad, 
-                combinando experiencia, profesionalismo y atención personalizada para satisfacer las 
-                necesidades legales de nuestros clientes.
+               a cargo del Notario Jorge F. Caraza Pinto, siempre dispuesto a atender al cliente de manera personalizada, manteniendo el prestigio que la caracteriza, brindando una gran cantidad de servicios de manera integral, oportuna y eficiente.
               </p>
               
               <p className="mt-4 text-lg text-neutral-700">
