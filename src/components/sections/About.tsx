@@ -29,13 +29,11 @@ const About: React.FC = () => {
               ref={ref}
             >
               <p className="text-lg text-neutral-700">
-               a cargo del Notario Jorge F. Caraza Pinto, siempre dispuesto a atender al cliente de manera personalizada, manteniendo el prestigio que la caracteriza, brindando una gran cantidad de servicios de manera integral, oportuna y eficiente.
+               A cargo del Notario Jorge F. Caraza Pinto, siempre dispuesto a atender al cliente de manera personalizada, manteniendo el prestigio que la caracteriza, brindando una gran cantidad de servicios de manera integral, oportuna y eficiente.
               </p>
               
               <p className="mt-4 text-lg text-neutral-700">
-                Ubicados en el corazón de Polanco, una de las zonas más exclusivas de la Ciudad de México, 
-                nuestro despacho se distingue por ofrecer un servicio discreto y eficiente, asegurando 
-                que cada trámite se realice con la máxima seguridad jurídica.
+                En la Notaría 36 el acceso al Notario es absoluto, el trato es personal y se tiene contacto con él de forma inmediata por diversos conductos: mediante cita, por teléfono o vía correo electrónico.
               </p>
               
               <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
