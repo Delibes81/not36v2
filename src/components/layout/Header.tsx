@@ -2,12 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { navItems } from '../../data/navigation';
 import Container from '../ui/Container';
-import { Menu, X, Scale, Globe } from 'lucide-react';
+import { Menu, X, Scale } from 'lucide-react';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [language, setLanguage] = useState('ES');
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -21,10 +20,6 @@ const Header: React.FC = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
-  const toggleLanguage = () => {
-    setLanguage(prev => prev === 'ES' ? 'EN' : 'ES');
-  };
 
   const handleNavClick = (href: string) => {
     if (href.startsWith('#')) {
@@ -116,15 +111,6 @@ const Header: React.FC = () => {
                     </button>
                   </li>
                 ))}
-                <li>
-                  <button
-                    onClick={toggleLanguage}
-                    className="flex items-center text-sm font-medium text-primary-900 bg-primary-50 rounded-full px-3 py-1.5 hover:bg-primary-100"
-                  >
-                    <Globe className="mr-1 h-4 w-4" />
-                    <span>{language}</span>
-                  </button>
-                </li>
               </ul>
             </nav>
           </Container>
