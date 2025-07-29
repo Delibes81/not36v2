@@ -60,12 +60,6 @@ const Contact: React.FC = () => {
                     <p className="mt-1 text-sm text-neutral-500">Conmutador a 5 líneas</p>
                   </div>
                 </div>
-                
-                <div className="flex items-start">
-                  <div className="mr-4 rounded-full bg-primary-100 p-2">
-                    <Clock className="h-5 w-5 text-primary-700" />
-                  </div>
-                </div>
               </div>
             </div>
             
