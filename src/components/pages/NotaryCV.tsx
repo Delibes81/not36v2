@@ -1,10 +1,15 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Container from '../ui/Container';
 import SectionTitle from '../ui/SectionTitle';
 import { Scale, GraduationCap, Briefcase, Award, BookOpen, Users } from 'lucide-react';
 
 const NotaryCV: React.FC = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen bg-white pt-24">
       <Container>
