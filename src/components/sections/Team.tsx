@@ -92,6 +92,7 @@ const Team: React.FC = () => {
               </p>
             </div>
           </motion.div>
+        </motion.div>
       </Container>
     </section>
   );
