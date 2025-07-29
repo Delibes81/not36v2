@@ -249,6 +249,13 @@ const Contact: React.FC = () => {
               </div>
             </div>
           </div>
+        </motion.div>
+      </Container>
+    </section>
+  );
+};
+
+export default Contact;
                 loading="lazy"
                 title="Notaría 36 - Blvd. Miguel de Cervantes Saavedra 466, Irrigación"
               ></iframe>
