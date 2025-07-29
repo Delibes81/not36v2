@@ -41,7 +41,7 @@ const Services: React.FC = () => {
           variants={container}
           initial="hidden"
           animate={inView ? 'show' : 'hidden'}
-          className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
+          className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 max-w-5xl mx-auto"
         >
           {services.map((service) => {
             // Dynamically get the icon component
