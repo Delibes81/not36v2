@@ -92,22 +92,6 @@ const Team: React.FC = () => {
               </p>
             </div>
           </motion.div>
-              </div>
-              
-              <div className="p-6">
-                <h3 className="font-heading text-xl font-semibold text-primary-900">
-                  {member.name}
-                </h3>
-                <p className="mt-1 text-sm font-medium text-gold-700">
-                  {member.position}
-                </p>
-                <p className="mt-4 text-sm text-neutral-600 line-clamp-4">
-                  {member.bio}
-                </p>
-              </div>
-            </motion.div>
-          ))}
-        </motion.div>
       </Container>
     </section>
   );
