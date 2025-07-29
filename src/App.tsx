@@ -33,8 +33,8 @@ function App() {
       <Header />
       <main className="flex-grow">
         <Hero />
-        <Services />
         <About />
+        <Services />
         <Team />
         <Contact />
       </main>
