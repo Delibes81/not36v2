@@ -56,7 +56,7 @@ const NotaryCV: React.FC = () => {
               </div>
               <div className="mt-6 p-4 bg-gold-50 rounded-lg border-l-4 border-gold-500">
                 <p className="text-neutral-700">
-                  <span className="font-medium">Grado académico:</span> Doctorando en Derecho de la Empresa, con Diploma de Estudios Avanzados, por la Universidad Complutense de Madrid, España.
+                  <span className="font-medium">Grado académico:</span> Doctorado en Derecho de la Empresa, con Diploma de Estudios Avanzados, por la Universidad Complutense de Madrid, España.
                 </p>
               </div>
             </div>
