@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { navItems } from '../../data/navigation';
 import Container from '../ui/Container';
 import { Menu, X, Scale, Globe } from 'lucide-react';
@@ -7,6 +8,8 @@ const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [language, setLanguage] = useState('ES');
+  const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,6 +24,31 @@ const Header: React.FC = () => {
     setLanguage(prev => prev === 'ES' ? 'EN' : 'ES');
   };
 
+  const handleNavClick = (href: string) => {
+    if (href.startsWith('#')) {
+      // If we're not on the home page, navigate to home first
+      if (location.pathname !== '/') {
+        navigate('/');
+        // Wait for navigation to complete, then scroll
+        setTimeout(() => {
+          const element = document.getElementById(href.slice(1));
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }, 100);
+      } else {
+        // We're on home page, just scroll
+        const element = document.getElementById(href.slice(1));
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+    } else {
+      // Regular navigation
+      navigate(href);
+    }
+    setMobileMenuOpen(false);
+  };
   return (
     <header 
       className={`fixed left-0 right-0 top-0 z-50 transition-all duration-300 ${
@@ -29,7 +57,7 @@ const Header: React.FC = () => {
     >
       <Container>
         <div className="flex items-center justify-between">
-          <div className="flex items-center">
+          <div className="flex items-center cursor-pointer" onClick={() => navigate('/')}>
             <Scale className={`h-8 w-8 ${isScrolled || mobileMenuOpen ? 'text-primary-700' : 'text-white'}`} />
             <div className="ml-3 flex flex-col">
               <span className={`text-lg font-heading font-bold ${isScrolled || mobileMenuOpen ? 'text-primary-900' : 'text-white'}`}>Notaría 36</span>
@@ -42,14 +70,14 @@ const Header: React.FC = () => {
             <ul className="flex space-x-8">
               {navItems.map((item) => (
                 <li key={item.href}>
-                  <a 
-                    href={item.href}
+                  <button
+                    onClick={() => handleNavClick(item.href)}
                     className={`text-sm font-medium transition-colors hover:text-primary-700 ${
                       isScrolled || mobileMenuOpen ? 'text-primary-900' : 'text-white'
                     }`}
                   >
                     {item.label}
-                  </a>
+                  </button>
                 </li>
               ))}
             </ul>
@@ -92,13 +120,12 @@ const Header: React.FC = () => {
               <ul className="flex flex-col space-y-4">
                 {navItems.map((item) => (
                   <li key={item.href}>
-                    <a 
-                      href={item.href}
+                    <button
+                      onClick={() => handleNavClick(item.href)}
                       className="block text-base font-medium text-primary-900"
-                      onClick={() => setMobileMenuOpen(false)}
                     >
                       {item.label}
-                    </a>
+                    </button>
                   </li>
                 ))}
                 <li>
