@@ -8,6 +8,7 @@ import About from './components/sections/About';
 import Team from './components/sections/Team';
 import Contact from './components/sections/Contact';
 import NotaryCV from './components/pages/NotaryCV';
+import PrivacyPolicy from './components/pages/PrivacyPolicy';
 
 const HomePage = () => {
   useEffect(() => {
@@ -50,6 +51,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/notario" element={<NotaryCV />} />
+            <Route path="/privacidad" element={<PrivacyPolicy />} />
           </Routes>
         </main>
         <Footer />
