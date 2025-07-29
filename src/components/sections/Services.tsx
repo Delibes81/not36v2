@@ -41,7 +41,7 @@ const Services: React.FC = () => {
           variants={container}
           initial="hidden"
           animate={inView ? 'show' : 'hidden'}
-          className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
+          className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2"
         >
           {services.map((service) => {
             // Dynamically get the icon component
@@ -51,15 +51,15 @@ const Services: React.FC = () => {
               <motion.div
                 key={service.id}
                 variants={item}
-                className="rounded-lg border border-neutral-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md"
+                className="rounded-lg border border-neutral-200 bg-white p-8 shadow-sm transition-all duration-300 hover:shadow-md"
               >
                 <div className="mb-4 inline-flex rounded-full bg-primary-100 p-3 text-primary-700">
                   {IconComponent && <IconComponent className="h-6 w-6" />}
                 </div>
-                <h3 className="mb-3 font-heading text-xl font-semibold text-primary-900">
+                <h3 className="mb-4 font-heading text-2xl font-semibold text-primary-900">
                   {service.title}
                 </h3>
-                <p className="text-neutral-600">
+                <p className="text-neutral-600 leading-relaxed">
                   {service.description}
                 </p>
               </motion.div>
