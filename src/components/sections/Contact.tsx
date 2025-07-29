@@ -65,13 +65,6 @@ const Contact: React.FC = () => {
                   <div className="mr-4 rounded-full bg-primary-100 p-2">
                     <Clock className="h-5 w-5 text-primary-700" />
                   </div>
-                  <div>
-                    <h4 className="font-medium text-primary-900">Horario de Atención</h4>
-                    <p className="mt-1 text-neutral-600">
-                      Lunes a Viernes: 9:00 - 18:00<br />
-                      Sábados: 9:00 - 13:00
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
