@@ -78,12 +78,7 @@ const About: React.FC = () => {
                 </div>
               </div>
               
-              <div className="mt-8">
-                <Button variant="primary">
-                  Conocer más sobre nosotros
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-              </div>
+
             </motion.div>
           </div>
           
