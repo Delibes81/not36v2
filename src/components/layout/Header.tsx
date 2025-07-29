@@ -85,20 +85,6 @@ const Header: React.FC = () => {
             </ul>
           </nav>
 
-          <div className="hidden items-center md:flex">
-            <button
-              onClick={toggleLanguage}
-              className={`flex items-center rounded-full px-3 py-1.5 text-sm font-medium transition-colors ${
-                isScrolled || mobileMenuOpen || isOnWhiteBackgroundPage
-                  ? 'bg-primary-50 text-primary-900 hover:bg-primary-100'
-                  : 'bg-white/10 text-white hover:bg-white/20'
-              }`}
-            >
-              <Globe className="mr-1 h-4 w-4" />
-              <span>{language}</span>
-            </button>
-          </div>
-
           {/* Mobile menu button */}
           <button 
             className="md:hidden"
