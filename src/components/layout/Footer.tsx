@@ -81,10 +81,6 @@ const Footer: React.FC = () => {
                 <Mail className="mr-2 h-5 w-5 flex-shrink-0 text-gold-500" />
                 <span className="text-neutral-300">contacto@notaria36cdmx.com</span>
               </li>
-              <li className="flex">
-                <Clock className="mr-2 h-5 w-5 flex-shrink-0 text-gold-500" />
-                <span className="text-neutral-300">Lun - Vie: 9:00 - 18:00</span>
-              </li>
             </ul>
           </div>
         </div>
