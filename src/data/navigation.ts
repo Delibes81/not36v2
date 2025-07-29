@@ -5,7 +5,7 @@ export const navItems: MenuItem[] = [
   { label: 'Notario', href: '/notario' },
   { label: 'Servicios', href: '#servicios' },
   { label: 'Nosotros', href: '#nosotros' },
-  { label: 'Equipo', href: '#equipo' },
+  { label: 'Valores', href: '#equipo' },
   { label: 'Contacto', href: '#contacto' },
 ];
 
