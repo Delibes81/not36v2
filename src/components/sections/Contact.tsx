@@ -243,12 +243,12 @@ const Contact: React.FC = () => {
             
             <div className="w-full">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.4!2d-99.1877!3d19.4378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5b5b5b5%3A0x1234567890abcdef!2sBlvd.%20Miguel%20de%20Cervantes%20Saavedra%20466%2C%20Irrigaci%C3%B3n%2C%2011500%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1640995200000!5m2!1ses!2smx"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.2!2d-99.1877!3d19.4378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5b5b5b5%3A0x1234567890abcdef!2sBlvd.%20Miguel%20de%20Cervantes%20Saavedra%20466%2C%20Irrigaci%C3%B3n%2C%2011500%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX%2C%20Mexico!5e0!3m2!1sen!2smx!4v1640000000000!5m2!1sen!2smx"
                 className="h-96 w-full rounded-lg"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
-                title="Notaría 36 - Ubicación"
+                title="Notaría 36 - Blvd. Miguel de Cervantes Saavedra 466, Irrigación"
               ></iframe>
             </div>
           </div>
