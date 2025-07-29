@@ -82,7 +82,7 @@ const NotaryCV: React.FC = () => {
                   <div className="flex justify-between items-start">
                     <div>
                       <p className="font-medium text-neutral-900">Instituto Estado de México</p>
-                      <p className="text-sm text-neutral-600">Primaria y secundaria</p>
+                      <p className="text-sm text-neutral-600">Primaria</p>
                     </div>
                     <div className="text-right">
                       <p className="text-sm text-neutral-600">1972 - 1977</p>
