@@ -234,8 +234,8 @@ const NotaryCV: React.FC = () => {
                 </div>
                 
                 <div className="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
-                  <span className="font-medium text-gold-900">Inicio de funciones</span>
-                  <span className="text-sm text-gold-700 font-medium">15 de febrero de 1993</span>
+                  <span className="font-medium text-primary-900">Inicio de funciones</span>
+                  <span className="text-sm text-primary-700 font-medium">15 de febrero de 1993</span>
                 </div>
               </div>
             </div>
