@@ -50,12 +50,11 @@ const NotaryCV: React.FC = () => {
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <p className="text-neutral-700"><span className="font-medium">Fecha de nacimiento:</span> 6 de octubre de 1965</p>
+                  <p className="text-neutral-700"><span className="font-medium">Fecha de nacimiento:</span> 25 de octubre de 1965</p>
                   <p className="text-neutral-700 mt-2"><span className="font-medium">Estado civil:</span> Casado</p>
                   <p className="text-neutral-700 mt-2"><span className="font-medium">Lugar de nacimiento:</span> México, D.F.</p>
                 </div>
                 <div>
-                  <p className="text-neutral-700"><span className="font-medium">Fecha de titulación:</span> 25 de octubre de 1985</p>
                   <p className="text-neutral-700 mt-2"><span className="font-medium">Domicilio:</span> Blvd. Miguel de Cervantes Saavedra No. 466, Colonia Irrigacion, 11500</p>
                 </div>
               </div>
@@ -229,12 +228,12 @@ const NotaryCV: React.FC = () => {
                   <span className="text-sm text-neutral-600">24 de agosto de 1992</span>
                 </div>
                 
-                <div className="flex justify-between items-center p-4 bg-primary-100 rounded-lg border-2 border-primary-200">
+                <div className="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
                   <span className="font-medium text-primary-900">Protesta - Titular de la Notaría 36 del Distrito Federal</span>
                   <span className="text-sm text-primary-700 font-medium">7 de febrero de 1993</span>
                 </div>
                 
-                <div className="flex justify-between items-center p-4 bg-gold-100 rounded-lg border-2 border-gold-200">
+                <div className="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
                   <span className="font-medium text-gold-900">Inicio de funciones</span>
                   <span className="text-sm text-gold-700 font-medium">15 de febrero de 1993</span>
                 </div>
