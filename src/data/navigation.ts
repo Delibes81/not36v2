@@ -3,8 +3,8 @@ import { MenuItem } from '../types';
 export const navItems: MenuItem[] = [
   { label: 'Inicio', href: '#home' },
   { label: 'Notario', href: '/notario' },
-  { label: 'Servicios', href: '#servicios' },
   { label: 'Nosotros', href: '#nosotros' },
+  { label: 'Servicios', href: '#servicios' },
   { label: 'Valores', href: '#equipo' },
   { label: 'Contacto', href: '#contacto' },
 ];
