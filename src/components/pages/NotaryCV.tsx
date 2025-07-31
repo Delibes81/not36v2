@@ -296,8 +296,8 @@ const NotaryCV: React.FC = () => {
               <div className="bg-white border border-neutral-200 rounded-lg p-6 shadow-sm">
                 <h3 className="font-semibold text-primary-800 mb-4">Cursos de Especialización Notarial</h3>
                 <div className="space-y-2">
-                  <p className="text-sm text-neutral-700">• Curso de actualización en las disciplinas básicas de la función notarial (Abril - Septiembre 1985)</p>
-                  <p className="text-sm text-neutral-700">• Curso de especialización en las disciplinas básicas de la función notarial (Marzo - Noviembre 1987)</p>
+                  <p className="text-sm text-neutral-700">• Curso de actualización en las disciplinas básicas de la función notarial (Abril - Septiembre 1989)</p>
+                  <p className="text-sm text-neutral-700">• Curso de especialización en las disciplinas básicas de la función notarial (Marzo - Noviembre 1990)</p>
                 </div>
               </div>
               
