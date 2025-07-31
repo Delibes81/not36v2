@@ -121,11 +121,11 @@ const NotaryCV: React.FC = () => {
                   <div className="p-4 bg-primary-50 rounded-lg">
                     <div className="flex justify-between items-start mb-2">
                       <h4 className="font-medium text-primary-900">Escuela Libre de Derecho</h4>
-                      <span className="text-sm text-neutral-600">1982 - 1987</span>
+                      <span className="text-sm text-neutral-600">1983 - 1988</span>
                     </div>
-                    <p className="text-sm text-neutral-700 mb-2">Promedio: <span className="font-medium text-gold-700">9.3</span></p>
+                    <p className="text-sm text-neutral-700 mb-2">Promedio: <span className="font-medium text-gold-700">9.8</span></p>
                     <p className="text-sm text-neutral-700 mb-1"><span className="font-medium">Tesis:</span> "Naturaleza Jurídica de la Sociedad Conyugal"</p>
-                    <p className="text-sm text-neutral-700 mb-1">Examen Profesional sustentado el 25 de octubre de 1985</p>
+                    <p className="text-sm text-neutral-700 mb-1">Examen Profesional sustentado el 30 de Marzo de 1989</p>
                     <p className="text-sm text-gold-700 font-medium">Mención especial por la solución al caso práctico planteado y al examen profesional</p>
                   </div>
                   
@@ -146,9 +146,9 @@ const NotaryCV: React.FC = () => {
                 <h3 className="font-semibold text-primary-800 mb-4">Otros Estudios</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   <p className="text-sm text-neutral-700">• "First Certificate in English", Universidad de Cambridge, UK</p>
-                  <p className="text-sm text-neutral-700">• "Cours de Langue et Civilisation Française", (Alliance Française)</p>
+                  <p className="text-sm text-neutral-700">• "Oxford Delegacy Exam", Universidad de oxford, UK</p>
                   <p className="text-sm text-neutral-700">• "Advanced Certificate Exam", Instituto Anglo Mexicano de Cultura</p>
-                  <p className="text-sm text-neutral-700">• "Certificato di Conoscenza della Lingua Italiana", (Dante Alighieri)</p>
+                  <p className="text-sm text-neutral-700">• "Historia del Arte", Centro de Cultura Casa Lamm.</p>
                 </div>
               </div>
             </div>
@@ -169,8 +169,8 @@ const NotaryCV: React.FC = () => {
             <div className="space-y-4">
               <div className="bg-white border border-neutral-200 rounded-lg p-6 shadow-sm">
                 <div className="flex justify-between items-start mb-2">
-                  <h3 className="font-medium text-primary-900">Bufete Villaseñor Ramos</h3>
-                  <span className="text-sm text-neutral-600">Sep 1983 - Ene 1985</span>
+                  <h3 className="font-medium text-primary-900">Bufete Yllanes Ramos</h3>
+                  <span className="text-sm text-neutral-600">Sep 1984 - Ene 1985</span>
                 </div>
                 <p className="text-sm text-neutral-700">Pasante en materia laboral</p>
               </div>
@@ -178,7 +178,7 @@ const NotaryCV: React.FC = () => {
               <div className="bg-white border border-neutral-200 rounded-lg p-6 shadow-sm">
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="font-medium text-primary-900">Notarías 116 y 188 del D.F.</h3>
-                  <span className="text-sm text-neutral-600">Feb 1985 - Sep 1985</span>
+                  <span className="text-sm text-neutral-600">Ago 1985 - Dic 1985</span>
                 </div>
                 <p className="text-sm text-neutral-700">Pasante de notaría</p>
               </div>
@@ -188,12 +188,12 @@ const NotaryCV: React.FC = () => {
                   <h3 className="font-medium text-primary-900">Notarías 36 y 76 del D.F.</h3>
                   <span className="text-sm text-neutral-600">Jul 1986 - Dic 1987</span>
                 </div>
-                <p className="text-sm text-neutral-700">Abogado de notaría</p>
+                <p className="text-sm text-neutral-700">Pasante de notaría</p>
               </div>
               
               <div className="bg-white border border-neutral-200 rounded-lg p-6 shadow-sm">
                 <div className="flex justify-between items-start mb-2">
-                  <h3 className="font-medium text-primary-900">Notaría 133 del D.F.</h3>
+                  <h3 className="font-medium text-primary-900">Notaría 115 del D.F.</h3>
                   <span className="text-sm text-neutral-600">Ene 1988 - Ago 1992</span>
                 </div>
                 <p className="text-sm text-neutral-700">Abogado de notaría</p>
@@ -217,7 +217,7 @@ const NotaryCV: React.FC = () => {
               <div className="space-y-4">
                 <div className="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
                   <span className="font-medium text-neutral-900">Aspirante al ejercicio del notariado</span>
-                  <span className="text-sm text-neutral-600">8 de julio de 1990</span>
+                  <span className="text-sm text-neutral-600">8 de julio de 1992</span>
                 </div>
                 
                 <div className="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
@@ -225,12 +225,12 @@ const NotaryCV: React.FC = () => {
                     <span className="font-medium text-neutral-900">Notario público del Distrito Federal</span>
                     <p className="text-sm text-gold-700 font-medium">Calificación: 75 puntos</p>
                   </div>
-                  <span className="text-sm text-neutral-600">24 de agosto de 1992</span>
+                  <span className="text-sm text-neutral-600">25 de agosto de 1992</span>
                 </div>
                 
                 <div className="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
                   <span className="font-medium text-primary-900">Protesta - Titular de la Notaría 36 del Distrito Federal</span>
-                  <span className="text-sm text-primary-700 font-medium">7 de febrero de 1993</span>
+                  <span className="text-sm text-primary-700 font-medium">2 de febrero de 1993</span>
                 </div>
                 
                 <div className="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
@@ -256,12 +256,13 @@ const NotaryCV: React.FC = () => {
             <div className="space-y-4">
               <div className="bg-white border border-neutral-200 rounded-lg p-6 shadow-sm">
                 <h3 className="font-medium text-primary-900 mb-2">Escuela Libre de Derecho</h3>
-                <p className="text-sm text-neutral-700 mb-1">Profesor adjunto de la Cátedra de Derecho Administrativo I (Agosto 1987 - Julio 1989)</p>
+
                 <p className="text-sm text-neutral-700">Profesor adjunto de la Cátedra de Derecho Notarial (1989 - 1992)</p>
               </div>
               
               <div className="bg-white border border-neutral-200 rounded-lg p-6 shadow-sm">
                 <h3 className="font-medium text-primary-900 mb-2">Universidad Intercontinental</h3>
+                <p className="text-sm text-neutral-700 mb-1">Profesor adjunto de la Cátedra de Derecho Administrativo I (Agosto 1987 - Julio 1989)</p>
                 <p className="text-sm text-neutral-700">Profesor titular de la Cátedra de Derecho Civil (Segundo semestre de 1989)</p>
               </div>
               
