@@ -262,8 +262,9 @@ const NotaryCV: React.FC = () => {
               
               <div className="bg-white border border-neutral-200 rounded-lg p-6 shadow-sm">
                 <h3 className="font-medium text-primary-900 mb-2">Universidad Intercontinental</h3>
-                <p className="text-sm text-neutral-700 mb-1">Profesor adjunto de la Cátedra de Derecho Administrativo I (Agosto 1987 - Julio 1989)</p>
-                <p className="text-sm text-neutral-700">Profesor titular de la Cátedra de Derecho Civil (Segundo semestre de 1989)</p>
+                <p className="text-sm text-neutral-700">Profesor titular de la Cátedra de Derecho Civil I (Segundo semestre de 1989)</p>                
+                <p className="text-sm text-neutral-700 mb-1">Profesor adjunto de la Cátedra de Derecho Administrativo I (Segundo semestre 1988)</p>
+
               </div>
               
               <div className="bg-white border border-neutral-200 rounded-lg p-6 shadow-sm">
