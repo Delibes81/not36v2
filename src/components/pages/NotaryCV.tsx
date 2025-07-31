@@ -90,7 +90,7 @@ const NotaryCV: React.FC = () => {
                     </div>
                     <div className="text-right">
                       <p className="text-sm text-neutral-600">1972 - 1977</p>
-                      <p className="text-sm font-medium text-gold-700">Promedio: 8.8</p>
+                      <p className="text-sm font-medium text-gold-700">Promedio: 9.0</p>
                     </div>
                   </div>
                   <div className="flex justify-between items-start">
@@ -107,8 +107,8 @@ const NotaryCV: React.FC = () => {
                       <p className="font-medium text-neutral-900">Escuela Preparatoria "Universidad La Salle"</p>
                     </div>
                     <div className="text-right">
-                      <p className="text-sm text-neutral-600">1980 - 1982</p>
-                      <p className="text-sm font-medium text-gold-700">Promedio: 9.1</p>
+                      <p className="text-sm text-neutral-600">1980 - 1983</p>
+                      <p className="text-sm font-medium text-gold-700">Promedio: 9.7</p>
                     </div>
                   </div>
                 </div>
