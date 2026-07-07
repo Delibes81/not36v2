@@ -24,7 +24,7 @@ const SectionTitle: React.FC<SectionTitleProps> = ({
           {subtitle}
         </p>
       )}
-      <div className={cn('mt-4 h-1 w-24 bg-gold-500', centered ? 'mx-auto' : '')} />
+      <div className={cn('mt-4 h-1 w-24 bg-accent-500', centered ? 'mx-auto' : '')} />
     </div>
   );
 };

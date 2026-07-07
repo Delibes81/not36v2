@@ -2,6 +2,7 @@ import React from 'react';
 import Container from '../ui/Container';
 import { footerLinks } from '../../data/navigation';
 import { Scale, MapPin, Phone, Mail, Clock, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import Logo from '../ui/Logo';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -12,26 +13,22 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 gap-12 py-16 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="flex items-center">
-              <Scale className="h-8 w-8 text-gold-500" />
-              <div className="ml-3 flex flex-col">
-                <span className="text-lg font-heading font-bold">Notaría 36</span>
-                <span className="text-sm text-gold-500">CDMX</span>
-              </div>
+              <Logo variant="light" />
             </div>
             <p className="mt-4 text-neutral-300">
               Ofrecemos servicios notariales de la más alta calidad, brindando certeza jurídica y atención personalizada en cada trámite.
             </p>
             <div className="mt-6 flex space-x-4">
-              <a href="#" className="text-neutral-300 hover:text-gold-500 transition-colors">
+              <a href="#" className="text-neutral-300 hover:text-accent-500 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-neutral-300 hover:text-gold-500 transition-colors">
+              <a href="#" className="text-neutral-300 hover:text-accent-500 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-neutral-300 hover:text-gold-500 transition-colors">
+              <a href="#" className="text-neutral-300 hover:text-accent-500 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-neutral-300 hover:text-gold-500 transition-colors">
+              <a href="#" className="text-neutral-300 hover:text-accent-500 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
@@ -40,11 +37,11 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 font-heading">Servicios Principales</h3>
             <ul className="space-y-2">
-              <li><a href="#servicios" className="text-neutral-300 hover:text-gold-500 transition-colors">Compraventa de Inmuebles</a></li>
-              <li><a href="#servicios" className="text-neutral-300 hover:text-gold-500 transition-colors">Testamentos</a></li>
-              <li><a href="#servicios" className="text-neutral-300 hover:text-gold-500 transition-colors">Constitución de Sociedades</a></li>
-              <li><a href="#servicios" className="text-neutral-300 hover:text-gold-500 transition-colors">Poderes Notariales</a></li>
-              <li><a href="#servicios" className="text-neutral-300 hover:text-gold-500 transition-colors">Trámites Sucesorios</a></li>
+              <li><a href="#servicios" className="text-neutral-300 hover:text-accent-500 transition-colors">Compraventa de Inmuebles</a></li>
+              <li><a href="#servicios" className="text-neutral-300 hover:text-accent-500 transition-colors">Testamentos</a></li>
+              <li><a href="#servicios" className="text-neutral-300 hover:text-accent-500 transition-colors">Constitución de Sociedades</a></li>
+              <li><a href="#servicios" className="text-neutral-300 hover:text-accent-500 transition-colors">Poderes Notariales</a></li>
+              <li><a href="#servicios" className="text-neutral-300 hover:text-accent-500 transition-colors">Trámites Sucesorios</a></li>
             </ul>
           </div>
           
@@ -55,14 +52,14 @@ const Footer: React.FC = () => {
                 <li key={link.href}>
                   <a
                     href={link.href} 
-                    className="text-neutral-300 hover:text-gold-500 transition-colors"
+                    className="text-neutral-300 hover:text-accent-500 transition-colors"
                   >
                     {link.label}
                   </a>
                 </li>
               ))}
-              <li><a href="#nosotros" className="text-neutral-300 hover:text-gold-500 transition-colors">Sobre Nosotros</a></li>
-              <li><a href="#contacto" className="text-neutral-300 hover:text-gold-500 transition-colors">Contacto</a></li>
+              <li><a href="#nosotros" className="text-neutral-300 hover:text-accent-500 transition-colors">Sobre Nosotros</a></li>
+              <li><a href="#contacto" className="text-neutral-300 hover:text-accent-500 transition-colors">Contacto</a></li>
             </ul>
           </div>
           
@@ -70,15 +67,15 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-4 font-heading">Contacto</h3>
             <ul className="space-y-3">
               <li className="flex">
-                <MapPin className="mr-2 h-5 w-5 flex-shrink-0 text-gold-500" />
+                <MapPin className="mr-2 h-5 w-5 flex-shrink-0 text-accent-500" />
                 <span className="text-neutral-300">Blvd. Miguel de Cervantes Saavedra No. 466, Colonia: Irrigación, C.P. 11500 Ciudad de México</span>
               </li>
               <li className="flex">
-                <Phone className="mr-2 h-5 w-5 flex-shrink-0 text-gold-500" />
+                <Phone className="mr-2 h-5 w-5 flex-shrink-0 text-accent-500" />
                 <span className="text-neutral-300">(01 55) 5557 0107</span>
               </li>
               <li className="flex">
-                <Mail className="mr-2 h-5 w-5 flex-shrink-0 text-gold-500" />
+                <Mail className="mr-2 h-5 w-5 flex-shrink-0 text-accent-500" />
                 <span className="text-neutral-300">contacto@notaria36cdmx.com</span>
               </li>
             </ul>

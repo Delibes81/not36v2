@@ -89,7 +89,7 @@ const About: React.FC = () => {
             className="relative hidden lg:block"
           >
             <div className="absolute -left-6 -top-6 h-72 w-72 rounded-full bg-primary-100" />
-            <div className="absolute -bottom-8 -right-8 h-48 w-48 rounded-full bg-gold-100" />
+            <div className="absolute -bottom-8 -right-8 h-48 w-48 rounded-full bg-accent-100" />
             
             <div className="relative z-10 overflow-hidden rounded-lg shadow-xl">
               <img 

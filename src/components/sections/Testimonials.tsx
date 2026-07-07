@@ -80,7 +80,7 @@ const Testimonials: React.FC = () => {
                   key={index}
                   onClick={() => setActiveIndex(index)}
                   className={`h-2 w-2 rounded-full transition-all ${
-                    index === activeIndex ? 'bg-gold-500 w-4' : 'bg-neutral-300'
+                    index === activeIndex ? 'bg-accent-500 w-4' : 'bg-neutral-300'
                   }`}
                   aria-label={`Ir al testimonio ${index + 1}`}
                 />

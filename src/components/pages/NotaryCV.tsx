@@ -28,7 +28,7 @@ const NotaryCV: React.FC = () => {
             <h1 className="font-heading text-4xl font-bold text-primary-900 mb-4">
               Jorge Fernando Caraza Pinto
             </h1>
-            <p className="text-xl text-gold-700 font-medium">
+            <p className="text-xl text-accent-700 font-medium">
               Titular de la Notaría 36
             </p>
             <p className="text-lg text-neutral-600 mt-2">
@@ -58,7 +58,7 @@ const NotaryCV: React.FC = () => {
                   <p className="text-neutral-700 mt-2"><span className="font-medium">Domicilio:</span> Blvd. Miguel de Cervantes Saavedra No. 466, Colonia Irrigacion, 11500</p>
                 </div>
               </div>
-              <div className="mt-6 p-4 bg-gold-50 rounded-lg border-l-4 border-gold-500">
+              <div className="mt-6 p-4 bg-accent-50 rounded-lg border-l-4 border-accent-500">
                 <p className="text-neutral-700">
                   <span className="font-medium">Grado académico:</span> Doctorado en Derecho de la Empresa, con Diploma de Estudios Avanzados, por la Universidad Complutense de Madrid, España.
                 </p>
@@ -90,7 +90,7 @@ const NotaryCV: React.FC = () => {
                     </div>
                     <div className="text-right">
                       <p className="text-sm text-neutral-600">1972 - 1977</p>
-                      <p className="text-sm font-medium text-gold-700">Promedio: 9.0</p>
+                      <p className="text-sm font-medium text-accent-700">Promedio: 9.0</p>
                     </div>
                   </div>
                   <div className="flex justify-between items-start">
@@ -99,7 +99,7 @@ const NotaryCV: React.FC = () => {
                     </div>
                     <div className="text-right">
                       <p className="text-sm text-neutral-600">1977 - 1980</p>
-                      <p className="text-sm font-medium text-gold-700">Promedio: 9.8</p>
+                      <p className="text-sm font-medium text-accent-700">Promedio: 9.8</p>
                     </div>
                   </div>
                   <div className="flex justify-between items-start">
@@ -108,7 +108,7 @@ const NotaryCV: React.FC = () => {
                     </div>
                     <div className="text-right">
                       <p className="text-sm text-neutral-600">1980 - 1983</p>
-                      <p className="text-sm font-medium text-gold-700">Promedio: 9.7</p>
+                      <p className="text-sm font-medium text-accent-700">Promedio: 9.7</p>
                     </div>
                   </div>
                 </div>
@@ -123,20 +123,20 @@ const NotaryCV: React.FC = () => {
                       <h4 className="font-medium text-primary-900">Escuela Libre de Derecho</h4>
                       <span className="text-sm text-neutral-600">1983 - 1988</span>
                     </div>
-                    <p className="text-sm text-neutral-700 mb-2">Promedio: <span className="font-medium text-gold-700">9.8</span></p>
+                    <p className="text-sm text-neutral-700 mb-2">Promedio: <span className="font-medium text-accent-700">9.8</span></p>
                     <p className="text-sm text-neutral-700 mb-1"><span className="font-medium">Tesis:</span> "Naturaleza Jurídica de la Sociedad Conyugal"</p>
                     <p className="text-sm text-neutral-700 mb-1">Examen Profesional sustentado el 30 de Marzo de 1989</p>
-                    <p className="text-sm text-gold-700 font-medium">Mención especial por la solución al caso práctico planteado y al examen profesional</p>
+                    <p className="text-sm text-accent-700 font-medium">Mención especial por la solución al caso práctico planteado y al examen profesional</p>
                   </div>
                   
-                  <div className="p-4 bg-gold-50 rounded-lg">
+                  <div className="p-4 bg-accent-50 rounded-lg">
                     <div className="flex justify-between items-start mb-2">
                       <h4 className="font-medium text-primary-900">Universidad Anáhuac - Doctorado en Derecho</h4>
                       <span className="text-sm text-neutral-600">1996 - 1997</span>
                     </div>
-                    <p className="text-sm text-neutral-700 mb-2">Promedio: <span className="font-medium text-gold-700">9.0</span></p>
+                    <p className="text-sm text-neutral-700 mb-2">Promedio: <span className="font-medium text-accent-700">9.0</span></p>
                     <p className="text-sm text-neutral-700">Doctorado en "Derecho de la empresa"</p>
-                    <p className="text-sm text-gold-700 font-medium mt-1">Diplomado de Estudios Avanzados: "Empresas transnacionales y fusión de Sociedades"</p>
+                    <p className="text-sm text-accent-700 font-medium mt-1">Diplomado de Estudios Avanzados: "Empresas transnacionales y fusión de Sociedades"</p>
                   </div>
                 </div>
               </div>
@@ -213,7 +213,7 @@ const NotaryCV: React.FC = () => {
               Situación Profesional
             </h2>
             
-            <div className="bg-gradient-to-r from-primary-50 to-gold-50 rounded-lg p-8">
+            <div className="bg-gradient-to-r from-primary-50 to-accent-50 rounded-lg p-8">
               <div className="space-y-4">
                 <div className="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
                   <span className="font-medium text-neutral-900">Aspirante al ejercicio del notariado</span>
@@ -223,7 +223,7 @@ const NotaryCV: React.FC = () => {
                 <div className="flex justify-between items-center p-4 bg-white rounded-lg shadow-sm">
                   <div>
                     <span className="font-medium text-neutral-900">Notario público del Distrito Federal</span>
-                    <p className="text-sm text-gold-700 font-medium">Calificación: 75 puntos</p>
+                    <p className="text-sm text-accent-700 font-medium">Calificación: 75 puntos</p>
                   </div>
                   <span className="text-sm text-neutral-600">25 de agosto de 1992</span>
                 </div>

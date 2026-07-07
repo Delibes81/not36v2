@@ -177,7 +177,7 @@ const Contact: React.FC = () => {
                 Directorio de Correos Electrónicos
               </h3>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div className="p-4 bg-primary-50 rounded-lg">
                   <h4 className="font-medium text-primary-900 mb-1">Notario Jorge F. Caraza Pinto</h4>
                   <a href="mailto:jcaraza@notaria36cdmx.com" className="text-sm text-primary-700 hover:text-primary-800">
@@ -206,12 +206,7 @@ const Contact: React.FC = () => {
                   </a>
                 </div>
                 
-                <div className="p-4 bg-primary-50 rounded-lg">
-                  <h4 className="font-medium text-primary-900 mb-1">Hugo Paredes</h4>
-                  <a href="mailto:hparedes@notaria36cdmx.com" className="text-sm text-primary-700 hover:text-primary-800">
-                    hparedes@notaria36cdmx.com
-                  </a>
-                </div>
+
                 
                 <div className="p-4 bg-primary-50 rounded-lg">
                   <h4 className="font-medium text-primary-900 mb-1">Luis E. Neda</h4>
@@ -227,12 +222,7 @@ const Contact: React.FC = () => {
                   </a>
                 </div>
                 
-                <div className="p-4 bg-primary-50 rounded-lg">
-                  <h4 className="font-medium text-primary-900 mb-1">Rosa Garcia</h4>
-                  <a href="mailto:rgarcia@notaria36cdmx.com" className="text-sm text-primary-700 hover:text-primary-800">
-                    rgarcia@notaria36cdmx.com
-                  </a>
-                </div>
+
               </div>
             </div>
           </div>

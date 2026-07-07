@@ -64,7 +64,7 @@ const Services: React.FC = () => {
                     <ul className="space-y-2 text-sm text-neutral-600">
                       {service.items.map((item, index) => (
                         <li key={index} className="flex items-start">
-                          <span className="mr-2 mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-gold-500"></span>
+                          <span className="mr-2 mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent-500"></span>
                           <span>{item}</span>
                         </li>
                       ))}

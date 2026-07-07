@@ -60,23 +60,23 @@ const PrivacyPolicy: React.FC = () => {
               
               <ul className="space-y-3">
                 <li className="flex items-start">
-                  <span className="mr-3 mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-gold-500"></span>
+                  <span className="mr-3 mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-accent-500"></span>
                   <span className="text-neutral-700">Su nombre, dirección, fecha de nacimiento.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="mr-3 mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-gold-500"></span>
+                  <span className="mr-3 mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-accent-500"></span>
                   <span className="text-neutral-700">Su correo electrónico y número telefónico.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="mr-3 mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-gold-500"></span>
+                  <span className="mr-3 mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-accent-500"></span>
                   <span className="text-neutral-700">Sus datos patrimoniales como cuentas bancarias, créditos, bienes muebles e inmuebles, activos, pasivos, entre otros.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="mr-3 mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-gold-500"></span>
+                  <span className="mr-3 mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-accent-500"></span>
                   <span className="text-neutral-700">Información sobre su cónyuge, herederos, legatarios y beneficiarios.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="mr-3 mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-gold-500"></span>
+                  <span className="mr-3 mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-accent-500"></span>
                   <span className="text-neutral-700">Comprobantes oficiales que acrediten su identidad y la información que Usted declara, así como su CURP.</span>
                 </li>
               </ul>
@@ -144,7 +144,7 @@ const PrivacyPolicy: React.FC = () => {
               ¿Con quién compartimos su información y para qué fines?
             </h2>
             
-            <div className="bg-gold-50 border border-gold-200 rounded-lg p-6">
+            <div className="bg-accent-50 border border-accent-200 rounded-lg p-6">
               <p className="text-neutral-700">
                 Sus datos personales solo son tratados por el personal adscrito a esta Notaría a efecto de elaborar los instrumentos públicos notariales que Usted solicita, por lo cual, sus datos personales no se transfieren a ningún tercero ajeno a ella, salvo para el cumplimiento de obligaciones legales ante las autoridades competentes tales como los registros públicos, las autoridades tributarias, así como las autoridades judiciales.
               </p>
@@ -207,7 +207,7 @@ const PrivacyPolicy: React.FC = () => {
               <p className="text-neutral-700 mb-4">
                 El ejercicio de los derechos de acceso, rectificación, cancelación y oposición o la revocación del consentimiento, podrán efectuarse presentando solicitud por escrito en nuestro domicilio dirigida a la persona o departamento de privacidad, o bien, vía correo electrónico a <a href="mailto:msanchez@notaria36df.com.mx" className="text-primary-700 hover:text-primary-800 font-medium">msanchez@notaria36df.com.mx</a> o llamando al número <a href="tel:+525555570107" className="text-primary-700 hover:text-primary-800 font-medium">(55) 5557-0107</a> a partir del 6 de Enero de 2012.
               </p>
-              <div className="p-4 bg-gold-50 rounded-lg border-l-4 border-gold-500">
+              <div className="p-4 bg-accent-50 rounded-lg border-l-4 border-accent-500">
                 <p className="text-sm text-neutral-700">
                   <strong>Importante:</strong> Una vez plasmados en un instrumento notarial, no podrá Ud. ejercer sobre ellos ninguno de los referidos derechos, pudiendo hacerlo solamente respecto de los que se conservan en la base de datos de la Notaría.
                 </p>
@@ -233,15 +233,15 @@ const PrivacyPolicy: React.FC = () => {
               
               <ul className="space-y-2">
                 <li className="flex items-center">
-                  <span className="mr-3 h-2 w-2 rounded-full bg-gold-500"></span>
+                  <span className="mr-3 h-2 w-2 rounded-full bg-accent-500"></span>
                   <span className="text-neutral-700">Nuestra página de Internet <span className="font-medium">www.notaria36df.com.mx</span></span>
                 </li>
                 <li className="flex items-center">
-                  <span className="mr-3 h-2 w-2 rounded-full bg-gold-500"></span>
+                  <span className="mr-3 h-2 w-2 rounded-full bg-accent-500"></span>
                   <span className="text-neutral-700">Notificación a su correo electrónico</span>
                 </li>
                 <li className="flex items-center">
-                  <span className="mr-3 h-2 w-2 rounded-full bg-gold-500"></span>
+                  <span className="mr-3 h-2 w-2 rounded-full bg-accent-500"></span>
                   <span className="text-neutral-700">En la primera comunicación que tengamos con usted después del cambio</span>
                 </li>
               </ul>
@@ -307,7 +307,7 @@ const PrivacyPolicy: React.FC = () => {
           >
             <div className="bg-primary-900 text-white rounded-lg p-6">
               <div className="flex items-center mb-4">
-                <Calendar className="mr-3 h-5 w-5 text-gold-500" />
+                <Calendar className="mr-3 h-5 w-5 text-accent-500" />
                 <h3 className="font-heading text-lg font-semibold">Actualizaciones del aviso de privacidad</h3>
               </div>
               

@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { navItems } from '../../data/navigation';
 import Container from '../ui/Container';
-import { Menu, X, Scale, Globe } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
+import Logo from '../ui/Logo';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -60,11 +61,7 @@ const Header: React.FC = () => {
       <Container>
         <div className="flex items-center justify-between">
           <div className="flex items-center cursor-pointer" onClick={() => navigate('/')}>
-            <Scale className={`h-8 w-8 ${isScrolled || mobileMenuOpen || isOnWhiteBackgroundPage ? 'text-primary-700' : 'text-white'}`} />
-            <div className="ml-3 flex flex-col">
-              <span className={`text-lg font-heading font-bold ${isScrolled || mobileMenuOpen || isOnWhiteBackgroundPage ? 'text-primary-900' : 'text-white'}`}>Notaría 36</span>
-              <span className={`text-sm ${isScrolled || mobileMenuOpen || isOnWhiteBackgroundPage ? 'text-gold-700' : 'text-gold-500'}`}>CDMX</span>
-            </div>
+            <Logo variant={isScrolled || mobileMenuOpen || isOnWhiteBackgroundPage ? 'dark' : 'light'} />
           </div>
 
           {/* Desktop navigation */}

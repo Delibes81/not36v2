@@ -63,7 +63,7 @@ const Team: React.FC = () => {
             variants={item}
             className="rounded-lg border border-neutral-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md h-full flex flex-col"
           >
-            <div className="mb-4 inline-flex rounded-full bg-gold-100 p-3 text-gold-700">
+            <div className="mb-4 inline-flex rounded-full bg-accent-100 p-3 text-accent-700">
               <Eye className="h-6 w-6" />
             </div>
             <h3 className="mb-3 font-heading text-xl font-semibold text-primary-900">

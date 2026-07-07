@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
       id="home" 
       className="relative min-h-screen bg-primary-950 bg-hero-pattern bg-cover bg-center bg-no-repeat pt-24"
     >
-      <div className="absolute inset-0 bg-primary-950/70" />
+      <div className="absolute inset-0 bg-gradient-to-r from-primary-950/90 via-primary-950/60 to-primary-950/10" />
       
       <Container className="relative z-10 flex min-h-[calc(100vh-6rem)] flex-col items-start justify-center py-16">
         <motion.div
@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
         >
           <h1 className="font-heading text-4xl font-bold text-white md:text-5xl lg:text-6xl">
             <span className="block">Notaría 36</span>
-            <span className="block mt-2 text-gold-500">Ciudad de México</span>
+            <span className="block mt-2 text-accent-500">Ciudad de México</span>
           </h1>
           
           <p className="mt-6 text-lg leading-relaxed text-white/90 md:text-xl">
