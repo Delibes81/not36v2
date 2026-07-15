@@ -11,19 +11,23 @@ const Logo: React.FC<LogoProps> = ({ className = '', variant = 'dark' }) => {
   const subTextColor = isDark ? 'text-primary-800' : 'text-primary-100';
 
   return (
-    <div className={`grid grid-cols-[max-content_max-content] gap-x-1.5 gap-y-0.5 select-none items-end ${className}`}>
-      <span className={`font-sans font-bold text-3xl md:text-4xl tracking-tight leading-none ${textColor}`}>
-        Notaría
-      </span>
-      <span className={`font-sans font-bold text-3xl md:text-4xl tracking-tight leading-none ${textColor}`}>
-        36
-      </span>
-      <span className={`font-sans font-bold text-[0.6rem] md:text-[0.75rem] tracking-[0.14em] uppercase ${subTextColor} text-justify w-full`}>
-        Ciudad de México
-      </span>
-      <div className="flex flex-col w-full h-[0.4rem] md:h-[0.55rem] self-center mb-0.5">
-        <div className="h-[60%] w-full bg-accent-500"></div>
-        <div className="h-[40%] w-full bg-primary-800"></div>
+    <div className={`flex flex-col select-none ${className}`}>
+      <div className="flex gap-x-1.5 items-end">
+        <span className={`font-sans font-bold text-3xl md:text-4xl tracking-tight leading-none ${textColor}`}>
+          Notaría
+        </span>
+        <span className={`font-sans font-bold text-3xl md:text-4xl tracking-tight leading-none ${textColor}`}>
+          36
+        </span>
+      </div>
+      <div className="flex justify-between items-center w-full mt-1">
+        <span className={`font-sans font-bold text-[0.6rem] md:text-[0.7rem] tracking-[0.12em] uppercase ${subTextColor}`}>
+          Ciudad de México
+        </span>
+        <div className="flex flex-col w-[2rem] md:w-[2.5rem] h-[0.35rem] md:h-[0.45rem] self-center">
+          <div className="h-[60%] w-full bg-accent-500"></div>
+          <div className="h-[40%] w-full bg-primary-800"></div>
+        </div>
       </div>
     </div>
   );

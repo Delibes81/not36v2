@@ -12,7 +12,16 @@ const Footer: React.FC = () => {
       <Container>
         <div className="grid grid-cols-1 gap-12 py-16 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <div className="flex items-center">
+            <div 
+              className="flex items-center cursor-pointer"
+              onClick={() => {
+                if (window.location.pathname === '/') {
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                } else {
+                  window.location.href = '/';
+                }
+              }}
+            >
               <Logo variant="light" />
             </div>
             <p className="mt-4 text-neutral-300">

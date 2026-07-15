@@ -60,7 +60,17 @@ const Header: React.FC = () => {
     >
       <Container>
         <div className="flex items-center justify-between">
-          <div className="flex items-center cursor-pointer" onClick={() => navigate('/')}>
+          <div 
+            className="flex items-center cursor-pointer" 
+            onClick={() => {
+              if (location.pathname === '/') {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              } else {
+                navigate('/');
+                setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 100);
+              }
+            }}
+          >
             <Logo variant={isScrolled || mobileMenuOpen || isOnWhiteBackgroundPage ? 'dark' : 'light'} />
           </div>
 
