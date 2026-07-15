@@ -56,8 +56,20 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-primary-900">Teléfono</h4>
-                    <p className="mt-1 text-neutral-600">(01 55) 5557 0107</p>
+                    <a href="tel:+525555570107" className="mt-1 text-neutral-600 hover:text-accent-500 transition-colors inline-block">(01 55) 5557 0107</a>
                     <p className="mt-1 text-sm text-neutral-500">Conmutador a 5 líneas</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="mr-4 rounded-full bg-primary-100 p-2">
+                    <Mail className="h-5 w-5 text-primary-700" />
+                  </div>
+                  <div>
+                    <h4 className="font-medium text-primary-900">Correo Electrónico</h4>
+                    <a href="mailto:contacto@notaria36cdmx.com" className="mt-1 text-neutral-600 hover:text-accent-500 transition-colors inline-block">
+                      contacto@notaria36cdmx.com
+                    </a>
                   </div>
                 </div>
               </div>
@@ -178,51 +190,47 @@ const Contact: React.FC = () => {
               </h3>
               
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div className="p-4 bg-primary-50 rounded-lg">
-                  <h4 className="font-medium text-primary-900 mb-1">Notario Jorge F. Caraza Pinto</h4>
-                  <a href="mailto:jcaraza@notaria36cdmx.com" className="text-sm text-primary-700 hover:text-primary-800">
+                <a href="mailto:jcaraza@notaria36cdmx.com" className="block p-4 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors cursor-pointer group border border-transparent hover:border-primary-200">
+                  <h4 className="font-medium text-primary-900 mb-1 group-hover:text-accent-600 transition-colors">Notario Jorge F. Caraza Pinto</h4>
+                  <span className="text-sm text-primary-700 group-hover:text-primary-800">
                     jcaraza@notaria36cdmx.com
-                  </a>
-                </div>
+                  </span>
+                </a>
                 
-                <div className="p-4 bg-primary-50 rounded-lg">
-                  <h4 className="font-medium text-primary-900 mb-1">Arturo Aguilar</h4>
-                  <a href="mailto:aaguilar@notaria36cdmx.com" className="text-sm text-primary-700 hover:text-primary-800">
+                <a href="mailto:aaguilar@notaria36cdmx.com" className="block p-4 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors cursor-pointer group border border-transparent hover:border-primary-200">
+                  <h4 className="font-medium text-primary-900 mb-1 group-hover:text-accent-600 transition-colors">Arturo Aguilar</h4>
+                  <span className="text-sm text-primary-700 group-hover:text-primary-800">
                     aaguilar@notaria36cdmx.com
-                  </a>
-                </div>
+                  </span>
+                </a>
                 
-                <div className="p-4 bg-primary-50 rounded-lg">
-                  <h4 className="font-medium text-primary-900 mb-1">Ángela López</h4>
-                  <a href="mailto:alopez@notaria36cdmx.com" className="text-sm text-primary-700 hover:text-primary-800">
+                <a href="mailto:alopez@notaria36cdmx.com" className="block p-4 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors cursor-pointer group border border-transparent hover:border-primary-200">
+                  <h4 className="font-medium text-primary-900 mb-1 group-hover:text-accent-600 transition-colors">Ángela López</h4>
+                  <span className="text-sm text-primary-700 group-hover:text-primary-800">
                     alopez@notaria36cdmx.com
-                  </a>
-                </div>
+                  </span>
+                </a>
                 
-                <div className="p-4 bg-primary-50 rounded-lg">
-                  <h4 className="font-medium text-primary-900 mb-1">María Elena Garcia</h4>
-                  <a href="mailto:egarcia@notaria36cdmx.com" className="text-sm text-primary-700 hover:text-primary-800">
+                <a href="mailto:egarcia@notaria36cdmx.com" className="block p-4 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors cursor-pointer group border border-transparent hover:border-primary-200">
+                  <h4 className="font-medium text-primary-900 mb-1 group-hover:text-accent-600 transition-colors">María Elena Garcia</h4>
+                  <span className="text-sm text-primary-700 group-hover:text-primary-800">
                     egarcia@notaria36cdmx.com
-                  </a>
-                </div>
+                  </span>
+                </a>
                 
-
-                
-                <div className="p-4 bg-primary-50 rounded-lg">
-                  <h4 className="font-medium text-primary-900 mb-1">Luis E. Neda</h4>
-                  <a href="mailto:lneda@notaria36cdmx.com" className="text-sm text-primary-700 hover:text-primary-800">
+                <a href="mailto:lneda@notaria36cdmx.com" className="block p-4 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors cursor-pointer group border border-transparent hover:border-primary-200">
+                  <h4 className="font-medium text-primary-900 mb-1 group-hover:text-accent-600 transition-colors">Luis E. Neda</h4>
+                  <span className="text-sm text-primary-700 group-hover:text-primary-800">
                     lneda@notaria36cdmx.com
-                  </a>
-                </div>
+                  </span>
+                </a>
                 
-                <div className="p-4 bg-primary-50 rounded-lg">
-                  <h4 className="font-medium text-primary-900 mb-1">María Sanchez</h4>
-                  <a href="mailto:msanchez@notaria36cdmx.com" className="text-sm text-primary-700 hover:text-primary-800">
+                <a href="mailto:msanchez@notaria36cdmx.com" className="block p-4 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors cursor-pointer group border border-transparent hover:border-primary-200">
+                  <h4 className="font-medium text-primary-900 mb-1 group-hover:text-accent-600 transition-colors">María Sanchez</h4>
+                  <span className="text-sm text-primary-700 group-hover:text-primary-800">
                     msanchez@notaria36cdmx.com
-                  </a>
-                </div>
-                
-
+                  </span>
+                </a>
               </div>
             </div>
           </div>
