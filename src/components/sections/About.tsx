@@ -86,18 +86,30 @@ const About: React.FC = () => {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={inView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.95 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="relative hidden lg:block"
+            className="relative hidden lg:block h-full min-h-[500px]"
           >
-            <div className="absolute -left-6 -top-6 h-72 w-72 rounded-full bg-primary-100" />
-            <div className="absolute -bottom-8 -right-8 h-48 w-48 rounded-full bg-accent-100" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[120%] w-[120%] rounded-full bg-primary-50/50 -z-10" />
             
-            <div className="relative z-10 overflow-hidden rounded-lg shadow-xl">
+            {/* Imagen Principal (Atrás) */}
+            <div className="absolute right-0 top-0 w-4/5 h-[400px] z-10 overflow-hidden rounded-2xl shadow-2xl border-4 border-white">
               <img 
-                src="https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="Oficina de Notaría Polanco" 
+                src="/optimized/IMG_0257.webp" 
+                alt="Notaría 36 Instalaciones" 
                 className="h-full w-full object-cover"
               />
             </div>
+
+            {/* Imagen Secundaria (Adelante) */}
+            <div className="absolute left-0 bottom-0 w-3/5 h-[320px] z-20 overflow-hidden rounded-2xl shadow-xl border-8 border-white">
+              <img 
+                src="/optimized/IMG_0263.webp" 
+                alt="Equipo Notaría 36" 
+                className="h-full w-full object-cover"
+              />
+            </div>
+            
+            {/* Decorativo */}
+            <div className="absolute -bottom-4 -right-4 h-24 w-24 rounded-full bg-accent-100 z-0" />
           </motion.div>
         </div>
       </Container>

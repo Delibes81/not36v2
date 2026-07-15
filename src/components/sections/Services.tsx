@@ -51,29 +51,49 @@ const Services: React.FC = () => {
               <motion.div
                 key={service.id}
                 variants={item}
-                className="rounded-lg border border-neutral-200 bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md h-full flex flex-col"
+                className="group rounded-xl border border-neutral-200 bg-white overflow-hidden shadow-sm transition-all duration-300 hover:shadow-lg h-full flex flex-col"
               >
-                <div className="mb-4 inline-flex rounded-full bg-primary-100 p-3 text-primary-700">
-                  {IconComponent && <IconComponent className="h-6 w-6" />}
-                </div>
-                <h3 className="mb-3 font-heading text-xl font-semibold text-primary-900">
-                  {service.title}
-                </h3>
-                <div className="flex-grow">
-                  {service.items && service.items.length > 0 ? (
-                    <ul className="space-y-2 text-sm text-neutral-600">
-                      {service.items.map((item, index) => (
-                        <li key={index} className="flex items-start">
-                          <span className="mr-2 mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent-500"></span>
-                          <span>{item}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  ) : (
-                    <p className="text-neutral-600">
-                      {service.description}
-                    </p>
+                {service.image && (
+                  <div className="relative h-48 w-full overflow-hidden">
+                    <img 
+                      src={service.image} 
+                      alt={service.title} 
+                      className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                    <div className="absolute bottom-4 right-4 rounded-full bg-white/90 p-2 text-primary-700 shadow-md transform translate-y-10 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+                      {IconComponent && <IconComponent className="h-5 w-5" />}
+                    </div>
+                  </div>
+                )}
+                
+                <div className="p-6 flex flex-col flex-grow">
+                  {!service.image && (
+                    <div className="mb-4 inline-flex rounded-full bg-primary-100 p-3 text-primary-700">
+                      {IconComponent && <IconComponent className="h-6 w-6" />}
+                    </div>
                   )}
+                  
+                  <h3 className="mb-3 font-heading text-xl font-semibold text-primary-900 group-hover:text-accent-600 transition-colors">
+                    {service.title}
+                  </h3>
+                  
+                  <div className="flex-grow">
+                    {service.items && service.items.length > 0 ? (
+                      <ul className="space-y-2 text-sm text-neutral-600">
+                        {service.items.map((item, index) => (
+                          <li key={index} className="flex items-start">
+                            <span className="mr-2 mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent-500"></span>
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="text-neutral-600">
+                        {service.description}
+                      </p>
+                    )}
+                  </div>
                 </div>
               </motion.div>
             );

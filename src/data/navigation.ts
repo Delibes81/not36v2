@@ -6,6 +6,7 @@ export const navItems: MenuItem[] = [
   { label: 'Nosotros', href: '#nosotros' },
   { label: 'Servicios', href: '#servicios' },
   { label: 'Valores', href: '#equipo' },
+  { label: 'Instalaciones', href: '#instalaciones' },
   { label: 'Contacto', href: '#contacto' },
 ];
 

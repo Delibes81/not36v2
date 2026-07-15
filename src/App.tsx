@@ -6,6 +6,7 @@ import Hero from './components/sections/Hero';
 import Services from './components/sections/Services';
 import About from './components/sections/About';
 import Team from './components/sections/Team';
+import Gallery from './components/sections/Gallery';
 import Contact from './components/sections/Contact';
 import NotaryCV from './components/pages/NotaryCV';
 import PrivacyPolicy from './components/pages/PrivacyPolicy';
@@ -37,6 +38,7 @@ const HomePage = () => {
       <About />
       <Services />
       <Team />
+      <Gallery />
       <Contact />
     </>
   );
