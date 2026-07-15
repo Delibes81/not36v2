@@ -45,8 +45,8 @@ export default {
         },
       },
       fontFamily: {
-        heading: ['Playfair Display', 'serif'],
-        sans: ['Inter', 'sans-serif'],
+        heading: ['Arial', 'Helvetica', 'sans-serif'],
+        sans: ['Arial', 'Helvetica', 'sans-serif'],
       },
       spacing: {
         '128': '32rem',
@@ -67,7 +67,7 @@ export default {
         },
       },
       backgroundImage: {
-        'hero-pattern': "url('/hero.png')",
+        'hero-pattern': "url('/hero.webp')",
       },
     },
   },
