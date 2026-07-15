@@ -91,19 +91,8 @@ const Gallery: React.FC = () => {
                     className="absolute inset-0 w-full h-full object-cover pointer-events-none" 
                   />
                   
-                  {/* Overlay oscuro para legibilidad que desaparece en la foto activa */}
-                  <div className={`absolute inset-0 bg-black transition-opacity duration-1000 ${isActive ? 'opacity-10' : 'opacity-40'}`} />
-                  
-                  {/* Título sólo visible en la imagen central */}
-                  <div 
-                    className={`absolute bottom-6 left-0 right-0 text-center transition-all duration-700 ease-out ${
-                      isActive ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-                    }`}
-                  >
-                    <h3 className="font-heading font-bold text-white text-xl md:text-3xl drop-shadow-lg bg-black/30 mx-8 rounded-lg py-2 backdrop-blur-sm">
-                      {img.alt}
-                    </h3>
-                  </div>
+                  {/* Overlay oscuro para la profundidad de las imágenes inactivas */}
+                  <div className={`absolute inset-0 bg-black transition-opacity duration-1000 ${isActive ? 'opacity-0' : 'opacity-40'}`} />
                 </motion.div>
               );
             })}
