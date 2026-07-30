@@ -10,6 +10,7 @@ import Gallery from './components/sections/Gallery';
 import Contact from './components/sections/Contact';
 import NotaryCV from './components/pages/NotaryCV';
 import PrivacyPolicy from './components/pages/PrivacyPolicy';
+import WhatsAppButton from './components/ui/WhatsAppButton';
 
 const HomePage = () => {
   useEffect(() => {
@@ -57,6 +58,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <WhatsAppButton />
       </div>
     </Router>
   );

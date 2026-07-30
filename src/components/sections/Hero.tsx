@@ -26,13 +26,12 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="max-w-3xl"
         >
-          <h1 className="font-heading text-4xl font-bold text-white md:text-5xl lg:text-6xl">
-            <span className="block">Notaría 36</span>
-            <span className="block mt-2 text-accent-500">Ciudad de México</span>
+          <h1 className="font-heading text-4xl md:text-5xl lg:text-[3.5rem] font-bold text-white leading-tight">
+            Notaría 36 de la <span className="block mt-1 text-accent-500">Ciudad de México</span>
           </h1>
           
-          <p className="mt-6 text-lg leading-relaxed text-white/90 md:text-xl">
-Nuestro compromiso es atender con prontitud y rectitud a todos nuestros clientes, con calidad y certeza en sus requerimientos de servicios notariales, brindándoles así una atención personalizada con el apoyo del mejor equipo profesional de abogados.
+          <p className="mt-6 text-xl leading-relaxed text-white/90 md:text-2xl font-light">
+            Nuestro compromiso es atenderte.
           </p>
           
           <div className="mt-10">

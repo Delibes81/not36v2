@@ -231,6 +231,27 @@ const Contact: React.FC = () => {
                     msanchez@notaria36cdmx.com
                   </span>
                 </a>
+
+                <a href="mailto:isaac@notaria36cdmx.com" className="block p-4 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors cursor-pointer group border border-transparent hover:border-primary-200">
+                  <h4 className="font-medium text-primary-900 mb-1 group-hover:text-accent-600 transition-colors">Isaac</h4>
+                  <span className="text-sm text-primary-700 group-hover:text-primary-800">
+                    isaac@notaria36cdmx.com
+                  </span>
+                </a>
+
+                <a href="mailto:alicia@notaria36cdmx.com" className="block p-4 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors cursor-pointer group border border-transparent hover:border-primary-200">
+                  <h4 className="font-medium text-primary-900 mb-1 group-hover:text-accent-600 transition-colors">Alicia</h4>
+                  <span className="text-sm text-primary-700 group-hover:text-primary-800">
+                    alicia@notaria36cdmx.com
+                  </span>
+                </a>
+
+                <a href="mailto:sistemas@notaria36cdmx.com" className="block p-4 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors cursor-pointer group border border-transparent hover:border-primary-200">
+                  <h4 className="font-medium text-primary-900 mb-1 group-hover:text-accent-600 transition-colors">Sistemas</h4>
+                  <span className="text-sm text-primary-700 group-hover:text-primary-800">
+                    sistemas@notaria36cdmx.com
+                  </span>
+                </a>
               </div>
             </div>
           </div>

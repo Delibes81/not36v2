@@ -24,23 +24,6 @@ const Footer: React.FC = () => {
             >
               <Logo variant="light" />
             </div>
-            <p className="mt-4 text-neutral-300">
-              Ofrecemos servicios notariales de la más alta calidad, brindando certeza jurídica y atención personalizada en cada trámite.
-            </p>
-            <div className="mt-6 flex space-x-4">
-              <a href="#" className="text-neutral-300 hover:text-accent-500 transition-colors">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-neutral-300 hover:text-accent-500 transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-neutral-300 hover:text-accent-500 transition-colors">
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-neutral-300 hover:text-accent-500 transition-colors">
-                <Instagram className="h-5 w-5" />
-              </a>
-            </div>
           </div>
           
           <div>
@@ -57,6 +40,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 font-heading">Enlaces Útiles</h3>
             <ul className="space-y-2">
+              <li><a href="#contacto" className="text-neutral-300 hover:text-accent-500 transition-colors">Contacto</a></li>
               {footerLinks.map((link) => (
                 <li key={link.href}>
                   <a
@@ -68,7 +52,6 @@ const Footer: React.FC = () => {
                 </li>
               ))}
               <li><a href="#nosotros" className="text-neutral-300 hover:text-accent-500 transition-colors">Sobre Nosotros</a></li>
-              <li><a href="#contacto" className="text-neutral-300 hover:text-accent-500 transition-colors">Contacto</a></li>
             </ul>
           </div>
           
