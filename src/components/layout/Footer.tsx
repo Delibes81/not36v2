@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Container from '../ui/Container';
 import { footerLinks } from '../../data/navigation';
 import { Scale, MapPin, Phone, Mail, Clock, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
@@ -61,7 +62,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-primary-800 py-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-neutral-400">
           <p>&copy; {currentYear} Notaría 36 CDMX. Todos los derechos reservados.</p>
           <div className="flex items-center gap-6">
-            <a href="/aviso-de-privacidad" className="hover:text-accent-500 transition-colors font-medium">Aviso de Privacidad</a>
+            <Link to="/aviso-de-privacidad" className="hover:text-accent-500 transition-colors font-medium">Aviso de Privacidad</Link>
           </div>
         </div>
       </Container>

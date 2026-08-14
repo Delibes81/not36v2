@@ -54,7 +54,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/notario" element={<NotaryCV />} />
-            <Route path="/privacidad" element={<PrivacyPolicy />} />
+            <Route path="/aviso-de-privacidad" element={<PrivacyPolicy />} />
           </Routes>
         </main>
         <Footer />
