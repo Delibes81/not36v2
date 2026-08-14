@@ -6,18 +6,50 @@ import SectionTitle from '../ui/SectionTitle';
 import { services } from '../../data/services';
 import * as LucideIcons from 'lucide-react';
 
+const ServiceImageSlider = ({ images, title, globalTick, index }: { images: string[], title: string, globalTick: number, index: number }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  
+  useEffect(() => {
+    // El ciclo total es de 10 ticks a 500ms cada uno: 
+    // - 4 ticks (2 segundos) para que cambien las 4 tarjetas
+    // - 6 ticks (3 segundos) de pausa
+    const cycleTick = globalTick % 10;
+    
+    // Cambia la imagen solo si el tick del ciclo actual coincide con el índice de la tarjeta
+    if (globalTick > 0 && cycleTick === index) {
+      setCurrentIndex((prev) => (prev + 1) % images.length);
+    }
+  }, [globalTick, index, images.length]);
+
+  return (
+    <AnimatePresence initial={false}>
+      <motion.img
+        key={currentIndex}
+        src={images[currentIndex]}
+        alt={title}
+        className="absolute inset-0 h-full w-full object-cover object-[center_20%] transition-transform duration-700 group-hover:scale-105"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 1.5 }}
+      />
+    </AnimatePresence>
+  );
+};
+
 const Services: React.FC = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
 
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [globalTick, setGlobalTick] = useState(0);
 
   useEffect(() => {
+    // El tick avanza exactamente cada 0.5 segundos (500ms)
     const interval = setInterval(() => {
-      setActiveIndex((prev) => prev + 1);
-    }, 5000);
+      setGlobalTick((prev) => prev + 1);
+    }, 500);
     return () => clearInterval(interval);
   }, []);
 
@@ -52,7 +84,7 @@ const Services: React.FC = () => {
           animate={inView ? 'show' : 'hidden'}
           className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 max-w-5xl mx-auto"
         >
-          {services.map((service) => {
+          {services.map((service, index) => {
             // Dynamically get the icon component
             const IconComponent = LucideIcons[service.icon as keyof typeof LucideIcons];
             
@@ -65,18 +97,7 @@ const Services: React.FC = () => {
                 {(service.images || service.image) && (
                   <div className="relative h-48 w-full overflow-hidden bg-neutral-100">
                     {service.images ? (
-                      <AnimatePresence initial={false}>
-                        <motion.img
-                          key={activeIndex % service.images.length}
-                          src={service.images[activeIndex % service.images.length]}
-                          alt={service.title}
-                          className="absolute inset-0 h-full w-full object-cover object-[center_20%] transition-transform duration-700 group-hover:scale-105"
-                          initial={{ opacity: 0 }}
-                          animate={{ opacity: 1 }}
-                          exit={{ opacity: 0 }}
-                          transition={{ duration: 1.5 }}
-                        />
-                      </AnimatePresence>
+                      <ServiceImageSlider images={service.images} title={service.title} globalTick={globalTick} index={index} />
                     ) : (
                       <img 
                         src={service.image} 

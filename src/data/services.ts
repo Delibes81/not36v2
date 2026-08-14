@@ -9,6 +9,7 @@ export const services: Service[] = [
     image: '/fotos-Stock/04-equipo-abogados-reunion.webp',
     images: [
       '/fotos-Stock/04-equipo-abogados-reunion.webp',
+      '/optimized/exec-21579580-8c82-4641-b705-973fd4ed12d9.webp',
       '/fotos-Notario/exec-4bbd95d3-93d7-4ebd-8d84-be78e00b58d0.webp'
     ],
     items: [
@@ -28,6 +29,7 @@ export const services: Service[] = [
     image: '/fotos-Stock/07-asesoria-testamento-herencia.webp',
     images: [
       '/fotos-Stock/07-asesoria-testamento-herencia.webp',
+      '/optimized/exec-815e534e-1315-4e3c-86a8-7030504f03fe.webp',
       '/fotos-Notario/exec-029b1fcf-5e7e-40e6-9cef-def79f8f3676.webp'
     ],
     items: [
@@ -47,7 +49,8 @@ export const services: Service[] = [
     image: '/fotos-Stock/05-documentos-pluma-llaves.webp',
     images: [
       '/fotos-Stock/05-documentos-pluma-llaves.webp',
-      '/fotos-Stock/exec-b8d97a93-e9b3-427b-bb9a-f8fe8aa8cfe4.webp'
+      '/optimized/exec-73760112-8a2a-4bb1-936b-cbbcb344122e.webp',
+      '/fotos-Notario/exec-d4ed8092-ffb7-4c2f-94ba-a750571dbe35.webp'
     ],
     items: [
       'Compraventa',
@@ -71,6 +74,7 @@ export const services: Service[] = [
     image: '/fotos-Stock/08-certificacion-documento-sello.webp',
     images: [
       '/fotos-Stock/08-certificacion-documento-sello.webp',
+      '/optimized/exec-166c640c-5679-4e32-8999-44825f00df77.webp',
       '/fotos-Notario/exec-dd399516-08c3-443f-96e7-d13dc6ae098e.webp'
     ],
     items: [
