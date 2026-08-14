@@ -6,7 +6,11 @@ export const services: Service[] = [
     title: 'Derecho mercantil y corporativo',
     description: 'Constitución de Sociedades, Fusión, Escisión, Transformación, Liquidación, Protocolización de Actas de Asamblea y Consejo.',
     icon: 'building',
-    image: '/optimized/IMG_0241.webp',
+    image: '/fotos-Stock/04-equipo-abogados-reunion.webp',
+    images: [
+      '/fotos-Stock/04-equipo-abogados-reunion.webp',
+      '/fotos-Notario/exec-4bbd95d3-93d7-4ebd-8d84-be78e00b58d0.webp'
+    ],
     items: [
       'Constitución de Sociedades',
       'Fusión',
@@ -21,7 +25,11 @@ export const services: Service[] = [
     title: 'Derecho civil',
     description: 'Testamentos, Poderes, Revocación de poderes, Sucesiones Testamentarias, Sucesiones Intestamentarias, Cesiones de Derechos.',
     icon: 'scroll-text',
-    image: '/optimized/IMG_0244.webp',
+    image: '/fotos-Stock/07-asesoria-testamento-herencia.webp',
+    images: [
+      '/fotos-Stock/07-asesoria-testamento-herencia.webp',
+      '/fotos-Notario/exec-029b1fcf-5e7e-40e6-9cef-def79f8f3676.webp'
+    ],
     items: [
       'Testamentos',
       'Poderes',
@@ -36,7 +44,11 @@ export const services: Service[] = [
     title: 'Derecho inmobiliario',
     description: 'Compraventa, Donación, Permuta, Condominios, Aportación a sociedades, Adjudicaciones por herencia, y más servicios inmobiliarios.',
     icon: 'home',
-    image: '/optimized/IMG_0245.webp',
+    image: '/fotos-Stock/05-documentos-pluma-llaves.webp',
+    images: [
+      '/fotos-Stock/05-documentos-pluma-llaves.webp',
+      '/fotos-Stock/exec-b8d97a93-e9b3-427b-bb9a-f8fe8aa8cfe4.webp'
+    ],
     items: [
       'Compraventa',
       'Donación',
@@ -56,7 +68,11 @@ export const services: Service[] = [
     title: 'Otros',
     description: 'Cotejo de documentos, Notificaciones, Interpelaciones, Fe de hechos, Ratificaciones, Declaraciones, y servicios adicionales.',
     icon: 'file-signature',
-    image: '/optimized/IMG_0252.webp',
+    image: '/fotos-Stock/08-certificacion-documento-sello.webp',
+    images: [
+      '/fotos-Stock/08-certificacion-documento-sello.webp',
+      '/fotos-Notario/exec-dd399516-08c3-443f-96e7-d13dc6ae098e.webp'
+    ],
     items: [
       'Cotejo de documentos y Expedición de copias certificadas',
       'Notificaciones',

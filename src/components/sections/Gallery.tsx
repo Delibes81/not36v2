@@ -3,13 +3,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Container from '../ui/Container';
 
 const galleryImages = [
-  { src: '/optimized/IMG_0268.webp', alt: 'Recepción' },
-  { src: '/optimized/IMG_0279.webp', alt: 'Sala Principal' },
-  { src: '/optimized/IMG_0280.webp', alt: 'Oficinas Privadas' },
-  { src: '/optimized/IMG_0285.webp', alt: 'Sala de Juntas A' },
-  { src: '/optimized/IMG_0292.webp', alt: 'Sala de Juntas B' },
-  { src: '/optimized/IMG_0294.webp', alt: 'Área de Asesoría' },
-  { src: '/optimized/IMG_0300.webp', alt: 'Sala de Firmas' },
+  { src: '/optimized/exec-166c640c-5679-4e32-8999-44825f00df77.webp', alt: 'Recepción' },
+  { src: '/optimized/exec-21579580-8c82-4641-b705-973fd4ed12d9.webp', alt: 'Sala Principal' },
+  { src: '/optimized/exec-277c2ae6-e39d-4b43-b9d5-ddfc73ea1d2f.webp', alt: 'Oficinas Privadas' },
+  { src: '/optimized/exec-73760112-8a2a-4bb1-936b-cbbcb344122e.webp', alt: 'Sala de Juntas A' },
+  { src: '/optimized/exec-815e534e-1315-4e3c-86a8-7030504f03fe.webp', alt: 'Sala de Juntas B' },
+  { src: '/optimized/exec-84c802a9-45d3-44f5-aa0e-d9ce19e938b4.webp', alt: 'Área de Asesoría' },
+  { src: '/optimized/exec-85f9dcda-3b14-4379-9e64-fa4e446cd21f.webp', alt: 'Sala de Firmas' },
 ];
 
 const Gallery: React.FC = () => {

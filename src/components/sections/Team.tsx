@@ -48,7 +48,7 @@ const Team: React.FC = () => {
           >
             <div className="relative h-48 w-full overflow-hidden">
               <img 
-                src="/fotos-Stock/01-asesoria-notarial-pareja.png" 
+                src="/fotos-Stock/01-asesoria-notarial-pareja.webp" 
                 alt="Misión" 
                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -75,7 +75,7 @@ const Team: React.FC = () => {
           >
             <div className="relative h-48 w-full overflow-hidden">
               <img 
-                src="/fotos-Stock/05-documentos-pluma-llaves.png" 
+                src="/fotos-Stock/05-documentos-pluma-llaves.webp" 
                 alt="Visión" 
                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -102,7 +102,7 @@ const Team: React.FC = () => {
           >
             <div className="relative h-48 w-full overflow-hidden">
               <img 
-                src="/fotos-Stock/08-certificacion-documento-sello.png" 
+                src="/fotos-Stock/08-certificacion-documento-sello.webp" 
                 alt="Control Interno" 
                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -129,7 +129,7 @@ const Team: React.FC = () => {
           >
             <div className="relative h-48 w-full overflow-hidden">
               <img 
-                src="/fotos-Stock/06-abogada-asesoria-telefonica.png" 
+                src="/fotos-Stock/06-abogada-asesoria-telefonica.webp" 
                 alt="Nuestro Compromiso" 
                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
               />

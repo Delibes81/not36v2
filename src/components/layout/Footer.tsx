@@ -10,10 +10,11 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-primary-950 text-white">
       <Container>
-        <div className="grid grid-cols-1 gap-12 py-16 md:grid-cols-2 lg:grid-cols-4">
-          <div>
+        <div className="flex flex-col md:flex-row items-center justify-center py-12 md:py-16">
+          {/* Lado izquierdo: Logo */}
+          <div className="w-full md:w-1/2 flex justify-center md:justify-end md:pr-12 lg:pr-16 mb-12 md:mb-0">
             <div 
-              className="flex items-center cursor-pointer"
+              className="inline-block cursor-pointer"
               onClick={() => {
                 if (window.location.pathname === '/') {
                   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -26,56 +27,42 @@ const Footer: React.FC = () => {
             </div>
           </div>
           
-          <div>
-            <h3 className="text-lg font-semibold mb-4 font-heading">Servicios Principales</h3>
-            <ul className="space-y-2">
-              <li><a href="#servicios" className="text-neutral-300 hover:text-accent-500 transition-colors">Compraventa de Inmuebles</a></li>
-              <li><a href="#servicios" className="text-neutral-300 hover:text-accent-500 transition-colors">Testamentos</a></li>
-              <li><a href="#servicios" className="text-neutral-300 hover:text-accent-500 transition-colors">Constitución de Sociedades</a></li>
-              <li><a href="#servicios" className="text-neutral-300 hover:text-accent-500 transition-colors">Poderes Notariales</a></li>
-              <li><a href="#servicios" className="text-neutral-300 hover:text-accent-500 transition-colors">Trámites Sucesorios</a></li>
-            </ul>
-          </div>
+          {/* Línea divisoria */}
+          <div className="hidden md:block w-px h-28 bg-primary-800/60"></div>
+          <div className="md:hidden w-32 h-px bg-primary-800/60 mb-12"></div>
           
-          <div>
-            <h3 className="text-lg font-semibold mb-4 font-heading">Enlaces Útiles</h3>
-            <ul className="space-y-2">
-              <li><a href="#contacto" className="text-neutral-300 hover:text-accent-500 transition-colors">Contacto</a></li>
-              {footerLinks.map((link) => (
-                <li key={link.href}>
-                  <a
-                    href={link.href} 
-                    className="text-neutral-300 hover:text-accent-500 transition-colors"
-                  >
-                    {link.label}
-                  </a>
+          {/* Lado derecho: Contacto */}
+          <div className="w-full md:w-1/2 flex justify-center md:justify-start md:pl-12 lg:pl-16">
+            <div>
+              <ul className="space-y-4">
+                <li className="flex items-start">
+                  <div className="bg-primary-800/50 p-2 rounded-lg mr-4">
+                    <MapPin className="h-5 w-5 text-accent-500" />
+                  </div>
+                  <span className="text-neutral-300 mt-1 max-w-xs leading-relaxed">Blvd. Miguel de Cervantes Saavedra No. 466, Colonia: Irrigación, C.P. 11500 Ciudad de México</span>
                 </li>
-              ))}
-              <li><a href="#nosotros" className="text-neutral-300 hover:text-accent-500 transition-colors">Sobre Nosotros</a></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-lg font-semibold mb-4 font-heading">Contacto</h3>
-            <ul className="space-y-3">
-              <li className="flex">
-                <MapPin className="mr-2 h-5 w-5 flex-shrink-0 text-accent-500" />
-                <span className="text-neutral-300">Blvd. Miguel de Cervantes Saavedra No. 466, Colonia: Irrigación, C.P. 11500 Ciudad de México</span>
-              </li>
-              <li className="flex">
-                <Phone className="mr-2 h-5 w-5 flex-shrink-0 text-accent-500" />
-                <a href="tel:+525555570107" className="text-neutral-300 hover:text-white transition-colors">(01 55) 5557 0107</a>
-              </li>
-              <li className="flex">
-                <Mail className="mr-2 h-5 w-5 flex-shrink-0 text-accent-500" />
-                <a href="mailto:contacto@notaria36cdmx.com" className="text-neutral-300 hover:text-white transition-colors">contacto@notaria36cdmx.com</a>
-              </li>
-            </ul>
+                <li className="flex items-center">
+                  <div className="bg-primary-800/50 p-2 rounded-lg mr-4">
+                    <Phone className="h-5 w-5 text-accent-500" />
+                  </div>
+                  <a href="tel:+525555570107" className="text-neutral-300 hover:text-white transition-colors">(01 55) 5557 0107</a>
+                </li>
+                <li className="flex items-center">
+                  <div className="bg-primary-800/50 p-2 rounded-lg mr-4">
+                    <Mail className="h-5 w-5 text-accent-500" />
+                  </div>
+                  <a href="mailto:contacto@notaria36cdmx.com" className="text-neutral-300 hover:text-white transition-colors">contacto@notaria36cdmx.com</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         
-        <div className="border-t border-primary-800 py-8 text-center text-sm text-neutral-400">
+        <div className="border-t border-primary-800 py-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-neutral-400">
           <p>&copy; {currentYear} Notaría 36 CDMX. Todos los derechos reservados.</p>
+          <div className="flex items-center gap-6">
+            <a href="/aviso-de-privacidad" className="hover:text-accent-500 transition-colors font-medium">Aviso de Privacidad</a>
+          </div>
         </div>
       </Container>
     </footer>

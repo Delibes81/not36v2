@@ -93,7 +93,7 @@ const About: React.FC = () => {
             {/* Imagen Principal (Atrás) */}
             <div className="absolute right-0 top-0 w-4/5 h-[400px] z-10 overflow-hidden rounded-2xl shadow-2xl border-4 border-white">
               <img 
-                src="/optimized/IMG_0257.webp" 
+                src="/fotos-Stock/exec-e62ca23e-ede7-4e88-ad2e-c72b08c10ab6.webp" 
                 alt="Notaría 36 Instalaciones" 
                 className="h-full w-full object-cover"
               />
@@ -102,8 +102,8 @@ const About: React.FC = () => {
             {/* Imagen Secundaria (Adelante) */}
             <div className="absolute left-0 bottom-0 w-3/5 h-[320px] z-20 overflow-hidden rounded-2xl shadow-xl border-8 border-white">
               <img 
-                src="/optimized/IMG_0263.webp" 
-                alt="Equipo Notaría 36" 
+                src="/optimized/exec-73760112-8a2a-4bb1-936b-cbbcb344122e.webp" 
+                alt="Detalle Notaría 36" 
                 className="h-full w-full object-cover"
               />
             </div>

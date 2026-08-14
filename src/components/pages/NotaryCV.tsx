@@ -21,8 +21,8 @@ const NotaryCV: React.FC = () => {
           {/* Header */}
           <div className="relative text-center mb-16 pt-16 pb-20 rounded-3xl overflow-hidden shadow-xl border border-primary-900/20">
             <div 
-              className="absolute inset-0 z-0 bg-cover bg-center"
-              style={{ backgroundImage: 'url(/fotos-Stock/03-abogado-revisando-escritura.png)' }}
+              className="absolute inset-0 z-0 bg-cover bg-[center_15%]"
+              style={{ backgroundImage: 'url(/fotos-Notario/exec-f27f5c39-3ef9-4a48-9746-248016fb4e09.webp)' }}
             ></div>
             <div className="absolute inset-0 bg-primary-900/85 z-0"></div>
             <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-accent-400 via-accent-500 to-accent-600 z-10"></div>
@@ -81,8 +81,8 @@ const NotaryCV: React.FC = () => {
                 </div>
                 <div className="hidden lg:block relative rounded-xl overflow-hidden shadow-inner h-full min-h-[200px]">
                   <img 
-                    src="/fotos-Stock/05-documentos-pluma-llaves.png" 
-                    alt="Documentos Notariales" 
+                    src="/fotos-Notario/exec-029b1fcf-5e7e-40e6-9cef-def79f8f3676.webp" 
+                    alt="Jorge Fernando Caraza Pinto" 
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-primary-900/10"></div>
@@ -189,9 +189,9 @@ const NotaryCV: React.FC = () => {
             className="mb-12 rounded-2xl overflow-hidden relative h-48 md:h-64 shadow-md group"
           >
             <img 
-              src="/fotos-Stock/04-equipo-abogados-reunion.png" 
-              alt="Equipo de trabajo" 
-              className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
+              src="/fotos-Notario/exec-4bbd95d3-93d7-4ebd-8d84-be78e00b58d0.webp" 
+              alt="Notario con clientes" 
+              className="absolute inset-0 w-full h-full object-cover object-[center_20%] transition-transform duration-1000 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-primary-900/90 to-transparent flex items-center p-8 md:p-12">
               <h3 className="text-2xl md:text-3xl font-heading font-bold text-white max-w-md leading-tight drop-shadow-md">
@@ -266,7 +266,7 @@ const NotaryCV: React.FC = () => {
             <div className="relative rounded-2xl p-8 md:p-10 shadow-lg overflow-hidden">
               <div 
                 className="absolute inset-0 z-0 bg-cover bg-center"
-                style={{ backgroundImage: 'url(/fotos-Stock/08-certificacion-documento-sello.png)' }}
+                style={{ backgroundImage: 'url(/fotos-Notario/exec-dd399516-08c3-443f-96e7-d13dc6ae098e.webp)' }}
               ></div>
               <div className="absolute inset-0 bg-primary-900/90 z-0"></div>
               
