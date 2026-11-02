@@ -31,7 +31,7 @@ const Team: React.FC = () => {
       <Container>
         <SectionTitle
           title="Misión y Valores"
-          subtitle="Rapidez y atención personalizada en todos sus trámites"
+          subtitle="Celeridad y atención personalizada en todos sus trámites"
           centered
         />
 
@@ -63,7 +63,7 @@ const Team: React.FC = () => {
               </h3>
               <div className="flex-grow">
                 <p className="text-neutral-600">
-                  Brindar a la sociedad certeza jurídica y la seguridad necesaria, derivada de la investidura que el Estado les otorga a los notarios, a través de un servicio integral, eficaz, puntual y dinámico para redactar, conservar, reproducir y dar forma legal a los instrumentos de los actos y hechos en los que da fe.
+                  Brindar a la sociedad la certeza y seguridad jurídicas necesarias, derivada de la investidura que el Estado le otorga al notario, a través de un servicio integral, eficaz, puntual y dinámico para redactar, conservar, reproducir y dar forma legal a los instrumentos de los actos y hechos en los que da fe.
                 </p>
               </div>
             </div>

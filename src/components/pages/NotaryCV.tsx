@@ -38,10 +38,7 @@ const NotaryCV: React.FC = () => {
                 Jorge Fernando Caraza Pinto
               </h1>
               <p className="text-xl text-accent-400 font-semibold uppercase tracking-widest mb-3 drop-shadow">
-                Titular de la Notaría 36
-              </p>
-              <p className="text-lg text-primary-100 font-medium opacity-90">
-                Ciudad de México
+                Notario 36 CDMX
               </p>
             </div>
           </div>
@@ -75,7 +72,7 @@ const NotaryCV: React.FC = () => {
                   </div>
                   <div className="mt-8 p-5 bg-gradient-to-r from-accent-50 to-white rounded-xl border border-accent-100 shadow-sm ml-2">
                     <p className="text-neutral-800">
-                      <span className="font-semibold text-accent-800">Grado académico:</span> Doctorado en Derecho de la Empresa, con Diploma de Estudios Avanzados, por la Universidad Complutense de Madrid, España.
+                      <span className="font-semibold text-accent-800">Máximo grado académico:</span> Doctor en Derecho de la Empresa, con Diploma de Estudios Avanzados, por la Universidad Complutense de Madrid, España.
                     </p>
                   </div>
                 </div>

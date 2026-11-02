@@ -83,11 +83,7 @@ export const services: Service[] = [
       'Interpelaciones',
       'Fe de hechos',
       'Ratificaciones',
-      'Declaraciones',
-      'Adjudicaciones por Remate Judicial',
-      'Apostillamientos',
-      'Legalizaciones',
-      'Servicios de Mediación, Negociación y Solución de Conflictos'
+      'Declaraciones'
     ]
   }
 ];
