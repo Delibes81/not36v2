@@ -11,7 +11,7 @@ const NotaryCV: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white pt-24">
+    <div className="min-h-screen bg-cream-50 pt-24">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

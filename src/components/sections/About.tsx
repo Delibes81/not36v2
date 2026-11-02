@@ -13,7 +13,7 @@ const About: React.FC = () => {
   });
 
   return (
-    <section id="nosotros" className="bg-neutral-50 py-20">
+    <section id="nosotros" className="bg-gradient-to-b from-cream-50 to-cream-100 py-20">
       <Container>
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
           <div>
@@ -38,8 +38,8 @@ const About: React.FC = () => {
               
               <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
                 <div className="flex items-start">
-                  <div className="mr-4 rounded-full bg-primary-100 p-2">
-                    <ShieldCheck className="h-5 w-5 text-primary-700" />
+                  <div className="mr-4 rounded-full bg-accent-100 p-2 ring-1 ring-accent-200">
+                    <ShieldCheck className="h-5 w-5 text-accent-700" />
                   </div>
                   <div>
                     <h4 className="font-medium text-primary-900">Certeza Jurídica</h4>
@@ -48,8 +48,8 @@ const About: React.FC = () => {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="mr-4 rounded-full bg-primary-100 p-2">
-                    <Users className="h-5 w-5 text-primary-700" />
+                  <div className="mr-4 rounded-full bg-accent-100 p-2 ring-1 ring-accent-200">
+                    <Users className="h-5 w-5 text-accent-700" />
                   </div>
                   <div>
                     <h4 className="font-medium text-primary-900">Atención Personalizada</h4>
@@ -58,8 +58,8 @@ const About: React.FC = () => {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="mr-4 rounded-full bg-primary-100 p-2">
-                    <Award className="h-5 w-5 text-primary-700" />
+                  <div className="mr-4 rounded-full bg-accent-100 p-2 ring-1 ring-accent-200">
+                    <Award className="h-5 w-5 text-accent-700" />
                   </div>
                   <div>
                     <h4 className="font-medium text-primary-900">Excelencia</h4>
@@ -68,8 +68,8 @@ const About: React.FC = () => {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="mr-4 rounded-full bg-primary-100 p-2">
-                    <Clock className="h-5 w-5 text-primary-700" />
+                  <div className="mr-4 rounded-full bg-accent-100 p-2 ring-1 ring-accent-200">
+                    <Clock className="h-5 w-5 text-accent-700" />
                   </div>
                   <div>
                     <h4 className="font-medium text-primary-900">Eficiencia</h4>
@@ -88,10 +88,10 @@ const About: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="relative hidden lg:block h-full min-h-[500px]"
           >
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[120%] w-[120%] rounded-full bg-primary-50/50 -z-10" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[120%] w-[120%] rounded-full bg-accent-100/40 -z-10" />
             
             {/* Imagen Principal (Atrás) */}
-            <div className="absolute right-0 top-0 w-4/5 h-[400px] z-10 overflow-hidden rounded-2xl shadow-2xl border-4 border-white">
+            <div className="absolute right-0 top-0 w-4/5 h-[400px] z-10 overflow-hidden rounded-2xl shadow-2xl border-4 border-cream-50">
               <img 
                 src="/fotos-Stock/exec-e62ca23e-ede7-4e88-ad2e-c72b08c10ab6.webp" 
                 alt="Notaría 36 Instalaciones" 
@@ -100,7 +100,7 @@ const About: React.FC = () => {
             </div>
 
             {/* Imagen Secundaria (Adelante) */}
-            <div className="absolute left-0 bottom-0 w-3/5 h-[320px] z-20 overflow-hidden rounded-2xl shadow-xl border-8 border-white">
+            <div className="absolute left-0 bottom-0 w-3/5 h-[320px] z-20 overflow-hidden rounded-2xl shadow-xl border-8 border-cream-50">
               <img 
                 src="/optimized/exec-73760112-8a2a-4bb1-936b-cbbcb344122e.webp" 
                 alt="Detalle Notaría 36" 

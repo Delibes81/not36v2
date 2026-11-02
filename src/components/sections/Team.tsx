@@ -27,7 +27,7 @@ const Team: React.FC = () => {
   };
 
   return (
-    <section id="equipo" className="bg-white py-20">
+    <section id="equipo" className="bg-gradient-to-b from-accent-50 to-cream-100 py-20">
       <Container>
         <SectionTitle
           title="Misión y Valores"
@@ -44,7 +44,7 @@ const Team: React.FC = () => {
         >
           <motion.div
             variants={item}
-            className="rounded-2xl border border-neutral-200 bg-white shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 h-full flex flex-col overflow-hidden group"
+            className="rounded-2xl border border-accent-100 bg-white shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 h-full flex flex-col overflow-hidden group"
           >
             <div className="relative h-48 w-full overflow-hidden">
               <img 
@@ -71,7 +71,7 @@ const Team: React.FC = () => {
           
           <motion.div
             variants={item}
-            className="rounded-2xl border border-neutral-200 bg-white shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 h-full flex flex-col overflow-hidden group"
+            className="rounded-2xl border border-accent-100 bg-white shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 h-full flex flex-col overflow-hidden group"
           >
             <div className="relative h-48 w-full overflow-hidden">
               <img 
@@ -98,7 +98,7 @@ const Team: React.FC = () => {
           
           <motion.div
             variants={item}
-            className="rounded-2xl border border-neutral-200 bg-white shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 h-full flex flex-col overflow-hidden group"
+            className="rounded-2xl border border-accent-100 bg-white shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 h-full flex flex-col overflow-hidden group"
           >
             <div className="relative h-48 w-full overflow-hidden">
               <img 
@@ -125,7 +125,7 @@ const Team: React.FC = () => {
           
           <motion.div
             variants={item}
-            className="rounded-2xl border border-neutral-200 bg-white shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 h-full flex flex-col overflow-hidden group"
+            className="rounded-2xl border border-accent-100 bg-white shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 h-full flex flex-col overflow-hidden group"
           >
             <div className="relative h-48 w-full overflow-hidden">
               <img 

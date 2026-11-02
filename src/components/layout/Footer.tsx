@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-primary-950 text-white">
+    <footer className="border-t-4 border-accent-600 bg-primary-950 text-white">
       <Container>
         <div className="flex flex-col md:flex-row items-center justify-center py-12 md:py-16">
           {/* Lado izquierdo: Logo */}

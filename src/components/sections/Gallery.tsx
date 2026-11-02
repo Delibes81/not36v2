@@ -32,14 +32,14 @@ const Gallery: React.FC = () => {
   };
 
   return (
-    <section id="instalaciones" className="py-24 bg-neutral-50 overflow-hidden relative">
+    <section id="instalaciones" className="py-24 bg-gradient-to-b from-accent-900 to-accent-950 overflow-hidden relative">
       <Container>
         <div className="text-center mb-16 relative z-20">
-          <h2 className="font-heading text-3xl font-bold text-primary-900 md:text-5xl">
+          <h2 className="font-heading text-3xl font-bold text-white md:text-5xl">
             Nuestras Instalaciones
           </h2>
-          <div className="mx-auto mt-4 h-1 w-20 bg-accent-500 rounded-full" />
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-neutral-600">
+          <div className="mx-auto mt-4 h-1 w-20 bg-accent-400 rounded-full" />
+          <p className="mx-auto mt-6 max-w-2xl text-lg text-accent-100">
             Haga clic en las imágenes o use los botones para explorar los espacios de la notaría.
           </p>
         </div>
@@ -104,7 +104,7 @@ const Gallery: React.FC = () => {
         <div className="flex justify-center gap-6 mt-12 relative z-20">
           <button 
             onClick={handlePrev}
-            className="p-4 rounded-full bg-white text-primary-900 shadow-md hover:bg-primary-50 hover:shadow-lg transition-all"
+            className="p-4 rounded-full bg-white/10 text-white ring-1 ring-white/25 backdrop-blur hover:bg-white/20 transition-all"
             aria-label="Anterior imagen"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -113,7 +113,7 @@ const Gallery: React.FC = () => {
           </button>
           <button 
             onClick={handleNext}
-            className="p-4 rounded-full bg-white text-primary-900 shadow-md hover:bg-primary-50 hover:shadow-lg transition-all"
+            className="p-4 rounded-full bg-white/10 text-white ring-1 ring-white/25 backdrop-blur hover:bg-white/20 transition-all"
             aria-label="Siguiente imagen"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
