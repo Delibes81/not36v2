@@ -43,7 +43,7 @@ const About: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-primary-900">Certeza Jurídica</h4>
-                    <p className="mt-1 text-sm text-neutral-600">Garantizamos tu seguridad en todos sus trámites</p>
+                    <p className="mt-1 text-sm text-neutral-600">Garantizamos tu seguridad en todos los trámites</p>
                   </div>
                 </div>
                 
