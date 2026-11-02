@@ -69,14 +69,13 @@ const Services: React.FC = () => {
   };
 
   return (
-    <section id="servicios" className="relative overflow-hidden bg-primary-950 py-20">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(102,135,97,0.22),transparent_60%)]" />
+    <section id="servicios" className="relative overflow-hidden bg-gradient-to-b from-cream-100 via-primary-100/70 to-primary-100 py-20">
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(102,135,97,0.12),transparent_65%)]" />
       <Container className="relative">
         <SectionTitle
           title="Nuestros Servicios"
           subtitle="Ofrecemos una amplia gama de servicios notariales con la máxima garantía de seguridad jurídica"
           centered
-          dark
         />
 
         <motion.div
@@ -94,7 +93,7 @@ const Services: React.FC = () => {
               <motion.div
                 key={service.id}
                 variants={item}
-                className="group rounded-xl border border-white/10 bg-white overflow-hidden shadow-lg shadow-black/20 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 h-full flex flex-col"
+                className="group rounded-xl border border-primary-200/70 bg-white overflow-hidden shadow-md shadow-primary-900/5 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 h-full flex flex-col"
               >
                 {(service.images || service.image) && (
                   <div className="relative h-48 w-full overflow-hidden bg-neutral-100">
