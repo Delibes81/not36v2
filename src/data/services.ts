@@ -3,7 +3,7 @@ import { Service } from '../types';
 export const services: Service[] = [
   {
     id: '1',
-    title: 'Derecho mercantil y corporativo',
+    title: 'Derecho mercantil',
     description: 'Constitución de Sociedades, Fusión, Escisión, Transformación, Liquidación, Protocolización de Actas de Asamblea y Consejo.',
     icon: 'building',
     image: '/fotos-Stock/04-equipo-abogados-reunion.webp',
@@ -24,7 +24,7 @@ export const services: Service[] = [
   {
     id: '2',
     title: 'Derecho civil',
-    description: 'Testamentos, Poderes, Revocación de poderes, Sucesiones Testamentarias, Sucesiones Intestamentarias, Cesiones de Derechos.',
+    description: 'Testamentos, Poderes, Revocación de poderes, Sucesiones Testamentarias, Sucesiones Intestamentarias.',
     icon: 'scroll-text',
     image: '/fotos-Stock/07-asesoria-testamento-herencia.webp',
     images: [
@@ -37,8 +37,7 @@ export const services: Service[] = [
       'Poderes',
       'Revocación de poderes',
       'Sucesiones Testamentarias',
-      'Sucesiones Intestamentarias',
-      'Cesiones de Derechos'
+      'Sucesiones Intestamentarias'
     ]
   },
   {

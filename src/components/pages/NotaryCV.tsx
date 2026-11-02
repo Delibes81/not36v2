@@ -373,7 +373,7 @@ const NotaryCV: React.FC = () => {
                   <p className="text-sm text-neutral-700 mt-3">• Cursos y seminarios de actualización legislativa</p>
                   <div className="ml-4 space-y-1">
                     <p className="text-xs text-neutral-600">- Colegio de Notarios del Distrito Federal, A.C.</p>
-                    <p className="text-xs text-neutral-600">- Asociación Nacional del Notariado Mexicano, A.C.</p>
+                    <p className="text-xs text-neutral-600">- Colegio Nacional del Notariado Mexicano, A.C.</p>
                   </div>                  
                 </div>
               </div>

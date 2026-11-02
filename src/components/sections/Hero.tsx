@@ -27,11 +27,11 @@ const Hero: React.FC = () => {
           className="max-w-3xl"
         >
           <h1 className="font-heading text-4xl md:text-5xl lg:text-[3.5rem] font-bold text-white leading-tight">
-            Notaría 36 de la <span className="block mt-1 text-accent-500">Ciudad de México</span>
+            Notaría 36 <span className="block mt-1 text-accent-500">Ciudad de México</span>
           </h1>
           
           <p className="mt-6 text-xl leading-relaxed text-white/90 md:text-2xl font-light">
-            Nuestro compromiso es atenderte.
+            Nuestro compromiso es tu seguridad jurídica.
           </p>
           
           <div className="mt-10">

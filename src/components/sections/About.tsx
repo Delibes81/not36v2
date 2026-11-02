@@ -19,7 +19,7 @@ const About: React.FC = () => {
           <div>
             <SectionTitle 
               title="Sobre Nuestra Notaría"
-              subtitle="32 años brindando certeza jurídica"
+              subtitle="Más de 30 años brindando certeza jurídica"
             />
             
             <motion.div
@@ -29,7 +29,7 @@ const About: React.FC = () => {
               ref={ref}
             >
               <p className="text-lg text-neutral-700">
-               A cargo del Notario Jorge F. Caraza Pinto, siempre dispuesto a atender al cliente de manera personalizada, manteniendo el prestigio que la caracteriza, brindando una gran cantidad de servicios de manera integral, oportuna y eficiente.
+               A cargo del Notario Jorge F. Caraza Pinto, siempre dispuesto a atender al cliente de manera personalizada, manteniendo el prestigio que la caracteriza, brindando servicios notariales de manera integral, oportuna y eficiente.
               </p>
               
               <p className="mt-4 text-lg text-neutral-700">
@@ -43,7 +43,7 @@ const About: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-primary-900">Certeza Jurídica</h4>
-                    <p className="mt-1 text-sm text-neutral-600">Garantizamos la seguridad legal en todos sus trámites</p>
+                    <p className="mt-1 text-sm text-neutral-600">Garantizamos tu seguridad en todos sus trámites</p>
                   </div>
                 </div>
                 
