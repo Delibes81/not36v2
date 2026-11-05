@@ -3,7 +3,7 @@ import React from 'react';
 const WhatsAppButton: React.FC = () => {
   return (
     <a
-      href="https://wa.me/525555572112"
+      href="https://wa.me/525535595010"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 flex items-center rounded-full bg-[#25D366] p-3 text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-[#25D366] focus:ring-offset-2 group"
@@ -21,7 +21,7 @@ const WhatsAppButton: React.FC = () => {
         </svg>
       </div>
       <span className="max-w-0 overflow-hidden whitespace-nowrap text-lg font-semibold transition-all duration-500 ease-in-out group-hover:max-w-[200px] group-hover:px-2">
-        55 5557 2112
+        55 3559 5010
       </span>
     </a>
   );
